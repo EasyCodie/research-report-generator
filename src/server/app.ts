@@ -3,6 +3,7 @@ import cors from '@fastify/cors';
 import fastifyStatic from '@fastify/static';
 import { ResearchReportGenerator } from '../core/ResearchReportGenerator';
 import { ReportProfile, OutputFormat } from '../types';
+import { jobManager } from './job-manager';
 import * as fs from 'fs/promises';
 import * as path from 'path';
 
@@ -12,8 +13,6 @@ interface GenerateReportBody {
   formats?: OutputFormat[];
   maxSources?: number;
 }
-
-const activeJobs = new Map<string, any>();
 
 export async function startServer(port: number = 3000): Promise<FastifyInstance> {
   const server = fastify({
@@ -71,12 +70,8 @@ export async function startServer(port: number = 3000): Promise<FastifyInstance>
     const generator = new ResearchReportGenerator();
     const jobId = generator['reportId']; // Access private property for demo
 
-    // Store job for tracking
-    activeJobs.set(jobId, {
-      status: 'processing',
-      progress: 0,
-      startedAt: new Date()
-    });
+    // Create job with automatic cleanup
+    jobManager.createJob(jobId);
 
     // Start generation in background
     generator.generateReport(query, {
@@ -85,28 +80,14 @@ export async function startServer(port: number = 3000): Promise<FastifyInstance>
       maxSources,
       outputDir: process.env.REPORTS_DIR || 'reports'
     }).then(report => {
-      activeJobs.set(jobId, {
-        status: 'completed',
-        progress: 100,
-        report,
-        completedAt: new Date()
-      });
+      jobManager.completeJob(jobId, report);
     }).catch(error => {
-      activeJobs.set(jobId, {
-        status: 'failed',
-        error: error.message,
-        failedAt: new Date()
-      });
+      jobManager.failJob(jobId, error.message);
     });
 
     // Track progress
     generator.on('progress', (event) => {
-      const job = activeJobs.get(jobId);
-      if (job) {
-        job.progress = event.percent;
-        job.currentStage = event.stage;
-        job.lastUpdate = event.timestamp;
-      }
+      jobManager.updateProgress(jobId, event.percent, event.stage);
     });
 
     return {
@@ -119,7 +100,7 @@ export async function startServer(port: number = 3000): Promise<FastifyInstance>
   // Get report status
   server.get<{ Params: { id: string } }>('/api/reports/:id', async (request, reply) => {
     const { id } = request.params;
-    const job = activeJobs.get(id);
+    const job = jobManager.getJob(id);
 
     if (!job) {
       return reply.code(404).send({
@@ -146,7 +127,7 @@ export async function startServer(port: number = 3000): Promise<FastifyInstance>
   }>('/api/reports/:id/download', async (request, reply) => {
     const { id } = request.params;
     const { format = 'md' } = request.query;
-    const job = activeJobs.get(id);
+    const job = jobManager.getJob(id);
 
     if (!job) {
       return reply.code(404).send({
@@ -188,8 +169,9 @@ export async function startServer(port: number = 3000): Promise<FastifyInstance>
 
   // List all reports
   server.get('/api/reports', async (request, reply) => {
-    const reports = Array.from(activeJobs.entries()).map(([id, job]) => ({
-      id,
+    const jobs = jobManager.getAllJobs();
+    const reports = jobs.map(job => ({
+      id: job.id,
       status: job.status,
       progress: job.progress,
       startedAt: job.startedAt,
@@ -197,6 +179,11 @@ export async function startServer(port: number = 3000): Promise<FastifyInstance>
     }));
 
     return { reports };
+  });
+
+  // Get job statistics
+  server.get('/api/stats', async (request, reply) => {
+    return jobManager.getStats();
   });
 
   // Get reliability database
