@@ -28,7 +28,7 @@ An autonomous research report generator that produces structured, source-backed 
                                                  │
                     ┌─────────────────────────────▼──────┐
                     │         Report Generator           │
-                    │   (Markdown, HTML, PDF)           │
+                    │   (Markdown, HTML, PDF)            │
                     └────────────────────────────────────┘
 ```
 
