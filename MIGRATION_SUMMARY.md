@@ -40,16 +40,18 @@
 git pull origin main
 
 # 2. Install/update dependencies
+cd evaluation
 pip install -r requirements.txt
+cd ..
 
 # 3. Add OpenAI API key to .env
 echo "OPENAI_API_KEY=your_key_here" >> .env
 
 # 4. Test the integration
-python test_openai.py
+python evaluation/src/test_openai.py
 
 # 5. Use the evaluator
-python evaluator.py --query "your query" --draft report.md --out results
+python evaluation/src/evaluator.py --query "your query" --draft report.md --out evaluation/outputs/results
 ```
 
 ## Key Benefits
@@ -75,9 +77,9 @@ If no OpenAI key is configured:
 
 ## Support
 
-- Run `python test_openai.py` to verify setup
+- Run `python evaluation/src/test_openai.py` to verify setup
 - Check `MIGRATION_GUIDE.md` for detailed instructions
-- Review `EVALUATOR_GUIDE.md` for usage examples
+- Review `evaluation/docs/EVALUATOR_GUIDE.md` for usage examples
 
 ## Next Steps
 

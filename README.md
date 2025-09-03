@@ -100,10 +100,11 @@ The project includes a Python-based evaluator for fact-checking and quality scor
 
 ```bash
 # Install Python dependencies
+cd evaluation
 pip install -r requirements.txt
 
-# Evaluate a report
-python evaluator.py --query "Your original query" --draft reports/YOUR_REPORT/report.md --out evaluation_results
+# Evaluate a report (from project root)
+python evaluation/src/evaluator.py --query "Your original query" --draft reports/YOUR_REPORT/report.md --out evaluation/outputs/results
 
 # Or via API
 curl -X POST http://localhost:3000/api/evaluate \
@@ -116,7 +117,7 @@ The evaluator uses OpenAI to:
 - Score reports on accuracy, coverage, and quality
 - Auto-fix low-scoring reports
 
-See [EVALUATOR_GUIDE.md](EVALUATOR_GUIDE.md) for detailed setup instructions.
+See [evaluation/docs/EVALUATOR_GUIDE.md](evaluation/docs/EVALUATOR_GUIDE.md) for detailed setup instructions.
 
 ## Configuration
 
@@ -207,7 +208,7 @@ npm run test:watch
 
 ```
 research-report-generator/
-├── src/
+├── src/                # TypeScript/Node.js source code
 │   ├── config/         # Configuration management
 │   ├── parser/         # Query parsing and intent detection
 │   ├── retrieval/      # Search, scraping, and data fetching
@@ -217,11 +218,15 @@ research-report-generator/
 │   ├── cli/           # Command-line interface
 │   ├── utils/         # Utilities (cache, http, logger)
 │   └── types/         # TypeScript interfaces
+├── evaluation/        # Python evaluation module
+│   ├── src/           # Evaluator source code
+│   ├── docs/          # Evaluation documentation
+│   └── outputs/       # Evaluation results
 ├── config/
 │   ├── profiles/      # Report profiles
 │   └── sources/       # Source reliability data
 ├── tests/             # Test suites
-├── public/            # Static assets
+├── public/            # Static assets & web interface
 └── reports/           # Generated reports
 ```
 

@@ -67,7 +67,9 @@ cd research-report-generator
 npm install
 
 # 3. Install Python dependencies
+cd evaluation
 pip install -r requirements.txt
+cd ..
 
 # 4. Configure environment
 cp .env.example .env
@@ -86,7 +88,9 @@ git pull origin main
 
 # 2. Update dependencies
 npm install
+cd evaluation
 pip install -r requirements.txt
+cd ..
 
 # 3. Update environment variables
 # Edit .env file:
@@ -102,8 +106,8 @@ npm run build
 The command-line interface and API endpoints work exactly as before:
 
 ```bash
-# CLI evaluation
-python evaluator.py --query "Your query" --draft report.md --out results
+# CLI evaluation (from project root)
+python evaluation/src/evaluator.py --query "Your query" --draft report.md --out evaluation/outputs/results
 
 # API evaluation
 curl -X POST http://localhost:3000/api/evaluate \
