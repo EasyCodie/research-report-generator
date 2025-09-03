@@ -1,0 +1,203 @@
+{
+  "timestamp": "2025-09-03T19:52:59.251457",
+  "query": "What are the best JavaScript frameworks for building modern web applications in 2024?",
+  "score": {
+    "accuracy": 2.8571428571428568,
+    "coverage": 0.0,
+    "citations_quality": 5.0,
+    "clarity_structure": 4.0,
+    "overall": 2.4357142857142855
+  },
+  "criteria": {
+    "goals": [
+      "Identify the best JavaScript frameworks for building modern web applications in 2024"
+    ],
+    "constraints": [
+      "Frameworks must be suitable for modern web application development",
+      "Focus should be on 2024 relevance"
+    ],
+    "must_include": [
+      "Framework names",
+      "Brief description of each framework",
+      "Considerations for choosing a framework (e.g., project size, team expertise, performance)"
+    ],
+    "nice_to_have": [
+      "Comparison table summarizing key features and strengths/weaknesses of each framework",
+      "Links to official documentation or relevant resources",
+      "Examples of popular applications built with each framework",
+      "Community size and support information",
+      "Future outlook and trends for each framework"
+    ],
+    "disallowed": [
+      "Outdated frameworks",
+      "Frameworks not suitable for web application development (e.g., primarily for mobile)",
+      "Subjective opinions without justification"
+    ]
+  },
+  "fact_checks": [
+    {
+      "claim": "Shopify, Slack, Snapchat, Squarespace, Tesla, The New York Times, Typeform, Twitter, Uber, Udemy, Whatsapp, and Zendesk use JavaScript frameworks.",
+      "verdict": "insufficient",
+      "confidence": 0.3,
+      "rationale": "Source 1 mentions Shopify and Slack using JavaScript frameworks.  However, the claim includes many other companies whose use of JavaScript frameworks is not mentioned in any of the provided sources. Source 2 is irrelevant, and Source 3 only discusses companies using Shopify, not whether they use JavaScript frameworks.",
+      "sources": [
+        {
+          "title": "Top 15 Best JavaScript Frameworks 2023 - RENGGA DEV;",
+          "url": "https://rengga.dev/blog/top-15-best-javascript-frameworks-2023/",
+          "snippet": "Airbnb, Asana, BBC, Cloudflare, Codecademy, Dropbox, Facebook, Github, Imgur, Instagram, Medium, Netflix, OkCupid, Paypal, Periscope, Pinterest, Product Hunt, Reddit, Salesforce, Scribd, Shopify, Slac"
+        },
+        {
+          "title": "27 Best JavaScript Frameworks For 2025 - LambdaTest",
+          "url": "https://www.lambdatest.com/blog/best-javascript-frameworks/",
+          "snippet": "* Many developers might feel React has a much steeper curve and bloated complexity than key rival frameworks like Vue.js or any other best JavaScript frameworks. Vue.js or Vue is an open-source lightw"
+        },
+        {
+          "title": "50+ Biggest Companies That Use Shopify in 2025 - Site Builder Report",
+          "url": "https://www.sitebuilderreport.com/biggest-companies-using-shopify",
+          "snippet": "50+ Biggest Companies That Use Shopify in 2025 From $100 million DTC brands and $100 billion corporations to celebrities with 100s of millions of followers, some of the biggest names use Shopify to se"
+        }
+      ]
+    },
+    {
+      "claim": "There are multiple excellent JavaScript frameworks available for web application development.",
+      "verdict": "supported",
+      "confidence": 0.8,
+      "rationale": "Sources 1, 2, and 3 all list multiple JavaScript frameworks suitable for web application development.  Source 1 explicitly mentions React, Angular, and Vue.js as excellent options, while Source 2 and 3 list several more, highlighting their popularity and suitability. While none explicitly use the word 'excellent', the context of the articles (listing them as 'best' or 'top') strongly implies a positive assessment of their quality.",
+      "sources": [
+        {
+          "title": "17 Best JavaScript Frameworks to Use in 2025 - Technostacks",
+          "url": "https://technostacks.com/blog/best-javascript-frameworks/",
+          "snippet": "Each has its pros and cons. React, Angular, and Vue. js are some of the best JavaScript frameworks available for web development."
+        },
+        {
+          "title": "Most popular JavaScript frameworks for web development - Medium",
+          "url": "https://medium.com/@techvoot.solutions/most-popular-javascript-frameworks-for-web-development-aa2761f5c104",
+          "snippet": "Best JavaScript framework for developers \u00b7 1. React.js \u00b7 2. Vue.js \u00b7 3. Angular.js \u00b7 4. Node.js \u00b7 5. Phaser.js \u00b7 6. Electron.js \u00b7 7. Express.js \u00b7 8."
+        },
+        {
+          "title": "Web Application Development \u2013 Top 10 Frameworks in 2025",
+          "url": "https://www.sencha.com/blog/web-application-development-top-frameworks/",
+          "snippet": "# Web Application Development \u2013 Top 10 Frameworks in 2025 ## What Are the Top 10 Web Application Development Frameworks? React\u2019s approach towards the development of web based application, with its foc"
+        }
+      ]
+    },
+    {
+      "claim": "Laravel is a JavaScript framework.",
+      "verdict": "contradicted",
+      "confidence": 0.95,
+      "rationale": "Sources 1 and 2 explicitly state that Laravel is a back-end framework written in PHP, not JavaScript.  Source 1 highlights the difference between JavaScript (client-side) and Laravel (server-side). Source 2 emphasizes Laravel's independence from JavaScript frameworks.  Therefore, the claim that Laravel is a JavaScript framework is clearly contradicted.",
+      "sources": [
+        {
+          "title": "JavaScript Frameworks vs Laravel \u2013 Which Should You Choose for ...",
+          "url": "https://www.freecodecamp.org/news/javascript-frameworks-vs-laravel/",
+          "snippet": "Laravel is a back-end framework and PHP focuses on the server-side. JavaScript without a framework is a client-side language at its core. Developers traditionally used JavaScript on the client-side an"
+        },
+        {
+          "title": "JavaScript & CSS Scaffolding - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/7.x/frontend",
+          "snippet": "Laravel does not require you to use a specific JavaScript framework or library to build your applications. In fact, you don't have to use JavaScript at all."
+        },
+        {
+          "title": "On Laravel, Full-Stack JavaScript, and Productive Frameworks",
+          "url": "https://www.jplhomer.org/posts/on-laravel-full-stack-javascript-and-productive-frameworks/",
+          "snippet": "The ability to compose UI with HTML-like syntax has been an absolute game-changer: `<x-foo :bar=\u201d$thing\u201d />` is actually way more appealing for me than `@component(\u201cfoo\u201d, [\u201cbar\u201d => $thing])` in that *"
+        }
+      ]
+    },
+    {
+      "claim": "Vue.js has fewer third-party libraries and tools compared to React and Angular.",
+      "verdict": "supported",
+      "confidence": 0.8,
+      "rationale": "Source 1 explicitly states that Vue.js has a smaller ecosystem and limited support and third-party libraries compared to Angular and React.  Source 2, while focusing on job market demand, implicitly supports the claim by mentioning React's 'popular ecosystem,' suggesting Vue's is less so. Source 3 is not directly relevant to the claim about the number of third-party libraries.",
+      "sources": [
+        {
+          "title": "Angular Vs React Vs Vue: Which One To Choose - TatvaSoft Blog",
+          "url": "https://www.tatvasoft.com/blog/angular-vs-react-vs-vue/",
+          "snippet": "Hence, it has a small ecosystem compared to frameworks like Angular and React. Using Vue, you get very limited support, third-party libraries,"
+        },
+        {
+          "title": "Angular vs React vs Vue: The Best Framework for 2025 is\u2026",
+          "url": "https://zerotomastery.io/blog/angular-vs-react-vs-vue/",
+          "snippet": ": Currently, Vue has less demand in the US job market when compared with Angular and React ... Third-Party Libraries \u2013 A popular ecosystem"
+        },
+        {
+          "title": "Comparing React, Angular, and Vue.js - Emergent Software",
+          "url": "https://www.emergentsoftware.net/blog/comparing-react-angular-and-vuejs/",
+          "snippet": "# Comparing React, Angular, and Vue.js Currently, React, Angular, and Vue.js remain three of the most popular choices for constructing single-page applications (SPAs) and other modern web interfaces. "
+        }
+      ]
+    },
+    {
+      "claim": "Inertia.js is useful for building reusable and maintainable components in Laravel.",
+      "verdict": "insufficient",
+      "confidence": 0.3,
+      "rationale": "No clear supporting evidence found",
+      "sources": [
+        {
+          "title": "Why Combine Laravel with Inertia.js for Your Next Project?",
+          "url": "https://hybridwebagency.com/blog/why-combine-laravel-with-inertia-js-for-your-next-project/",
+          "snippet": "Shared Templates and Components. With Laravel's Blade templating engine and Inertia's reusable components, your code can be beautifully DRY."
+        },
+        {
+          "title": "Why I Love Using Inertia.js with Laravel for Building Web ...",
+          "url": "https://www.amitavroy.com/articles/2024-11-24-why-love-using-inertiajs-laravel-for-building-modern-web-applications",
+          "snippet": "Inertia allows you to pass data directly from Laravel controllers to frontend components, reducing the back-and-forth and keeping everything in"
+        },
+        {
+          "title": "Laravel + Inertia.js + React Layouts | Build Reusable Page ...",
+          "url": "https://www.youtube.com/watch?v=F4FjU5SZ4rc",
+          "snippet": "how to build and use layouts in your Laravel + Inertia.js + React project. We'll cover: Creating a main layout component Wrapping your pages"
+        }
+      ]
+    },
+    {
+      "claim": "There are top 10 web application development frameworks.",
+      "verdict": "supported",
+      "confidence": 0.7,
+      "rationale": "Found 2 sources with matching content",
+      "sources": [
+        {
+          "title": "Web Application Development \u2013 Top 10 Frameworks in 2025",
+          "url": "https://www.sencha.com/blog/web-application-development-top-frameworks/",
+          "snippet": "# Web Application Development \u2013 Top 10 Frameworks in 2025 ## What Are the Top 10 Web Application Development Frameworks? React\u2019s approach towards the development of web based application, with its foc"
+        },
+        {
+          "title": "10 Best Web Application Frameworks for 2025",
+          "url": "https://www.spaceotechnologies.com/blog/web-application-frameworks/",
+          "snippet": "Jul 10, 2025\u00b7Consider the top back-end frameworks such as Node.js, Django, and Laravel to develop scalable and performant server-side applications. Learn"
+        },
+        {
+          "title": "20+ Top Web Development Frameworks (Updated List 2024)",
+          "url": "https://www.valuecoders.com/blog/technology-and-apps/10-top-web-development-frameworks-businesses/",
+          "snippet": "Technology and AppsTop Web Development Frameworks # 20+ Top Web Development Frameworks (Updated List 2024) So, ***what is a web development framework? ## Top Web Development Frameworks 2024 * Supports"
+        }
+      ]
+    },
+    {
+      "claim": "Choosing the best JavaScript framework depends on project-specific needs.",
+      "verdict": "supported",
+      "confidence": 0.7,
+      "rationale": "Found 2 sources with matching content",
+      "sources": [
+        {
+          "title": "Choosing the right JS Framework (looking for advice) - Reddit",
+          "url": "https://www.reddit.com/r/Frontend/comments/xk7noz/choosing_the_right_js_framework_looking_for_advice/",
+          "snippet": "Sep 21, 2022\u00b7When choosing the right JavaScript framework, consider your project's needs, your team's expertise, and the framework's ecosystem. If you"
+        },
+        {
+          "title": "How to Choose the Best JavaScript Framework for Your Web ...",
+          "url": "https://www.unosquare.com/blog/how-to-choose-the-best-javascript-framework-for-your-web-development-project/",
+          "snippet": "May 5, 2023\u00b7The choice of a JavaScript framework depends on your project requirements, team experience, and personal preferences. When selecting a"
+        },
+        {
+          "title": "Choosing the best JavaScript framework for your next project",
+          "url": "https://dev.to/ably/choosing-the-best-javascript-framework-for-your-next-project-4on3",
+          "snippet": "Dec 11, 2023\u00b7The popularity of frameworks depends upon several factors, including: ease of use, relevancy, security, and flexibility. As more developers"
+        }
+      ]
+    }
+  ],
+  "original_draft_length": 14430,
+  "fixed_draft_length": 14885,
+  "auto_fixed": true
+}

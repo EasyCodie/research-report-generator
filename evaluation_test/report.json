@@ -1,0 +1,232 @@
+{
+  "timestamp": "2025-09-03T19:28:20.449346",
+  "query": "Best practices for building scalable microservices with Docker and Kubernetes in 2024",
+  "score": {
+    "accuracy": 1.5,
+    "coverage": 0.0,
+    "citations_quality": 5.0,
+    "clarity_structure": 4.0,
+    "overall": 1.8250000000000002
+  },
+  "criteria": {
+    "goals": [
+      "Identify best options with justification"
+    ],
+    "constraints": [
+      "Be factual and accurate",
+      "Use credible sources"
+    ],
+    "must_include": [],
+    "nice_to_have": [
+      "Recent information (2023-2024)",
+      "Multiple perspectives"
+    ],
+    "disallowed": [
+      "Speculation without evidence",
+      "Outdated information"
+    ]
+  },
+  "fact_checks": [
+    {
+      "claim": "# Research Report\n\n**Report ID**: 6b5e31af-21b7-4303-a109-3c921d60fe67\n**Generated**: 2025-09-03T15:29:39",
+      "verdict": "insufficient",
+      "confidence": 0.3,
+      "rationale": "No clear supporting evidence found",
+      "sources": []
+    },
+    {
+      "claim": "806Z\n**Query**: \"Best practices for building scalable microservices with Docker and Kubernetes in 2024\"\n\n## Executive Summary\n\nThis research report presents key findings based on analysis of multiple sources:\n\n**Finding 1**: Key insights about best\n- Confidence: 95%\n- Based on 9 sources\n\n**Finding 2**: Key insights about practices\n- Confidence: 95%\n- Based on 8 sources\n\n**Finding 3**: Key insights about for\n- Confidence: 95%\n- Based on 15 sources\n\n**Finding 4**: Key insights about microservices\n- Confidence: 95%\n- Based on 8 sources\n\n**Finding 5**: Key insights about with\n- Confidence: 95%\n- Based on 8 sources\n\n**Finding 6**: Key insights about docker\n- Confidence: 95%\n- Based on 8 sources\n\n**Finding 7**: Key insights about kubernetes\n- Confidence: 95%\n- Based on 10 sources\n\n**Finding 8**: Key insights about 2024\n- Confidence: 95%\n- Based on 6 sources\n\n**Finding 9**: Key insights about building\n- Confidence: 95%\n- Based on 7 sources\n\n**Finding 10**: Key insights about scalable\n- Confidence: 95%\n- Based on 7 sources\n\n\n\n## Detailed Findings\n\n### Finding 1\n\n**Claim**: Key insights about best\n\n**Evidence**:\n- 23, 2025",
+      "verdict": "insufficient",
+      "confidence": 0.3,
+      "rationale": "No clear supporting evidence found",
+      "sources": []
+    },
+    {
+      "claim": "microservices architecture with docker and kubernetes a mar 10 2024 microservices",
+      "verdict": "supported",
+      "confidence": 0.7,
+      "rationale": "Found 2 sources with matching content",
+      "sources": [
+        {
+          "title": "Kubernetes Microservices Architecture Diagram",
+          "url": "https://www.voteforthepig.tennessee.edu/scholarship/4P8036/HomePages/KubernetesMicroservicesArchitectureDiagram.pdf",
+          "snippet": "Aug 23, 2025 ... Microservices Architecture with Docker and Kubernetes A Mar 10 2024 Microservices architecture has become the standard for building scalable\u00a0..."
+        },
+        {
+          "title": "All articles",
+          "url": "https://microservices.io/all-posts.html",
+          "snippet": "03 Nov 2024 \u00bb Reducing insider trading in a microservice architecture. 27 Oct ... 16 Mar 2023 \u00bb Monolith to Microservices with Bite-Sized Kubernetes. 13\u00a0..."
+        },
+        {
+          "title": "Deploying Microservices on Azure Kubernetes Service (AKS)",
+          "url": "https://www.linkedin.com/pulse/deploying-microservices-azure-kubernetes-service-aks-balakrishnan-6tlqe",
+          "snippet": "Rangaraj Balakrishnan. Cloud Solutions Architect | Devops/DevSecOps |\u2026 Published Sep 10, 2024. + Follow. Nowadays as the digital world has moved from\u00a0..."
+        }
+      ]
+    },
+    {
+      "claim": "best practices for kubernetes microservices architecture",
+      "verdict": "supported",
+      "confidence": 0.7,
+      "rationale": "Found 3 sources with matching content",
+      "sources": [
+        {
+          "title": "Microservices on Kubernetes: How It Works & 6 Tips for Success",
+          "url": "https://codefresh.io/learn/microservices/microservices-on-kubernetes-how-it-works-and-6-tips-for-success/",
+          "snippet": "6 Best Practices for Microservices on Kubernetes \u00b7 1. Manage Traffic with Ingress \u00b7 2. Leverage Kubernetes to Scale Microservices \u00b7 3. Use Namespaces \u00b7 4. Implement\u00a0..."
+        },
+        {
+          "title": "Best Practices For Microservices on Kubernetes - Piotr's TechBlog",
+          "url": "https://piotrminkowski.com/2020/03/10/best-practices-for-microservices-on-kubernetes/",
+          "snippet": "Mar 10, 2020 ... One of the most important Kubernetes microservices best practices is to use dedicated software for building a service mesh. Since originally\u00a0..."
+        },
+        {
+          "title": "Seeking Best Practices for Local Development in a Microservices ...",
+          "url": "https://www.reddit.com/r/devops/comments/13vg0sm/seeking_best_practices_for_local_development_in_a/",
+          "snippet": "May 30, 2023 ... I am currently working on a personal learning endeavor by standing up a Kubernetes-based microservices architecture with Docker containers."
+        }
+      ]
+    },
+    {
+      "claim": "- ls can help with service discovery",
+      "verdict": "insufficient",
+      "confidence": 0.5,
+      "rationale": "Limited evidence found",
+      "sources": [
+        {
+          "title": "ECS service discovery: Can I use short for inter-service ...",
+          "url": "https://repost.aws/questions/QUT28HsnKxRTieYpeK20zU4A/ecs-service-discovery-can-i-use-short-for-inter-service-communication",
+          "snippet": "Jul 19, 2022 ... rePost-User-ls. asked 3 years ago1.1K views. 1 Answer. Newest ... Upvote the correct answer to help the community benefit from your knowledge."
+        },
+        {
+          "title": "Docker CE swarm service discovery just does not work whatsoever ...",
+          "url": "https://forums.docker.com/t/docker-ce-swarm-service-discovery-just-does-not-work-whatsoever/47393",
+          "snippet": "Mar 6, 2018 ... I had to create a user-defined overlay network and put containers on that for service discovery to work. ... Could you help me? Maybe we could\u00a0..."
+        },
+        {
+          "title": "Gitlab 502 all sockets connection refused - Self-managed - GitLab ...",
+          "url": "https://forum.gitlab.com/t/gitlab-502-all-sockets-connection-refused/62077",
+          "snippet": "Nov 29, 2021 ... I would greatly appreciate any help / advice I can get from you guys and the community. ... service=registry version=v3.0.0-gitlab. sidekiq"
+        }
+      ]
+    },
+    {
+      "claim": "- itectural design, while also reviewing various tools and technologies and making recommendations on best practices for creating more advanced and scalable systems in 2024",
+      "verdict": "insufficient",
+      "confidence": 0.3,
+      "rationale": "No clear supporting evidence found",
+      "sources": [
+        {
+          "title": "Review article Ethical and regulatory challenges of AI technologies ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2405844024023284",
+          "snippet": "Feb 29, 2024 ... ... various diagnostic tools to support decision-making. For instance ... More recently, a system integrated with the advanced DL model\u00a0..."
+        },
+        {
+          "title": "The Role of AI in Hospitals and Clinics: Transforming Healthcare in ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11047988/",
+          "snippet": "We explore how AI empowers clinical decision-making, optimizes hospital operation and management, refines medical image analysis, and revolutionizes patient\u00a0..."
+        },
+        {
+          "title": "System architecture diagram basics & best practices",
+          "url": "https://vfunction.com/blog/architecture-diagram-guide/",
+          "snippet": "Jul 28, 2025 ... In summary, UML architectural diagrams are among the most expressive and detailed tools for conveying complex system designs. They are best\u00a0..."
+        }
+      ]
+    },
+    {
+      "claim": "- go r/django r/django news and links for the django community",
+      "verdict": "supported",
+      "confidence": 0.7,
+      "rationale": "Found 2 sources with matching content",
+      "sources": [
+        {
+          "title": "r/Django",
+          "url": "https://www.reddit.com/r/django/",
+          "snippet": "r/django: News and links for the Django community."
+        },
+        {
+          "title": "Django Tutorial // Build a Video Subscription Website : r/django",
+          "url": "https://www.reddit.com/r/django/comments/99gs9i/django_tutorial_build_a_video_subscription_website/",
+          "snippet": "Aug 23, 2018 ... Thanks for being thorough and explaining as you go along. So many tutorials online assume pro knowledge and don't always take into account the necessary\u00a0..."
+        },
+        {
+          "title": "Django Stripe integration - checkout vs payment links? : r/django",
+          "url": "https://www.reddit.com/r/django/comments/pd5i77/django_stripe_integration_checkout_vs_payment/",
+          "snippet": "Aug 28, 2021 ... Still, is there an advantage in using Checkout vs. payment link? Archived post. New comments cannot be posted and votes cannot be cast\u00a0..."
+        }
+      ]
+    },
+    {
+      "claim": "- nd test of production",
+      "verdict": "insufficient",
+      "confidence": 0.5,
+      "rationale": "Limited evidence found",
+      "sources": [
+        {
+          "title": "SARS-CoV-2 Seroconversion in Humans: A Detailed Protocol for a ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32302069/",
+          "snippet": "SARS-CoV-2 Seroconversion in Humans: A Detailed Protocol for a Serological Assay, Antigen Production, and Test Setup. Curr Protoc Microbiol. 2020 Jun;57(1):\u00a0..."
+        },
+        {
+          "title": "Shift right to test in production - Azure DevOps | Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/devops/deliver/shift-right-test-production",
+          "snippet": "Nov 28, 2022 ... Learn about shifting some test processes later in the DevOps pipeline to reduce time to production and ensure reliable operations."
+        },
+        {
+          "title": "How to handle docker-compose for production and dev and test : r ...",
+          "url": "https://www.reddit.com/r/docker/comments/13kxfjf/how_to_handle_dockercompose_for_production_and/",
+          "snippet": "May 18, 2023 ... The dev, test, staging, production ones are mostly just different environment variables, build commands (e.g. we run dev in debug mode still to\u00a0..."
+        }
+      ]
+    },
+    {
+      "claim": "to ensure the success of microservices architecture, it is crucial to follow best practices that address key challenges and promote effective development and deployment strategies",
+      "verdict": "insufficient",
+      "confidence": 0.5,
+      "rationale": "Limited evidence found",
+      "sources": [
+        {
+          "title": "Sr Software Engineer Jobs in Wayne | Robert Half",
+          "url": "https://www.roberthalf.com/us/en/jobs/wayne-pa/sr-software-engineer",
+          "snippet": "... success of distributed systems and microservices architecture. As a key ... best practices to continuously improve development strategies. 4 days ago."
+        },
+        {
+          "title": "Rabb School | University Bulletin | Brandeis University",
+          "url": "https://www.brandeis.edu/registrar/bulletin/2018-2019/registrar/bulletin/provisional/rabb.html",
+          "snippet": "How to Apply. Admission policies and procedures for graduate programs in the Division of Graduate Professional Studies are described in detail in both the\u00a0..."
+        },
+        {
+          "title": "Exceptional Tech Talent Looking for new roles in 2025 | David ...",
+          "url": "https://www.linkedin.com/posts/david-sutherland_exceptional-tech-talent-looking-for-new-activity-7280913702730514433-ATxT",
+          "snippet": "Jan 3, 2025 ... ... ensure exceptional application delivery, Microsoft emphasizes several best ... best practices is crucial for success in software development."
+        }
+      ]
+    },
+    {
+      "claim": "- services, developers can leverage tools and practices designed to enhance scalability",
+      "verdict": "insufficient",
+      "confidence": 0.5,
+      "rationale": "Limited evidence found",
+      "sources": [
+        {
+          "title": "4 Microservices Examples: Amazon, Netflix, Uber, and Etsy",
+          "url": "https://blog.dreamfactory.com/microservices-examples",
+          "snippet": "Apr 10, 2025 ... Further, Etsy also created various developer-friendly tools ... Since they run independently, developers can focus on scaling only the\u00a0..."
+        },
+        {
+          "title": "Migrate from FedEx Legacy Web Services to FedEx REST APIs",
+          "url": "https://developer.fedex.com/api/en-lk/guides/migrate.html",
+          "snippet": "REST is stateless in design, which can be leveraged to improve application performance through caching and scalability by deploying to multiple servers\u00a0..."
+        },
+        {
+          "title": "Real-world gen AI use cases from the world's leading organizations ...",
+          "url": "https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders",
+          "snippet": "Apr 9, 2025 ... Fiserv, a developer of financial services technology, can now ... Weights & Biases, a creator of AI tools for developers, created W&B\u00a0..."
+        }
+      ]
+    }
+  ],
+  "original_draft_length": 17193,
+  "fixed_draft_length": 17564,
+  "auto_fixed": true
+}

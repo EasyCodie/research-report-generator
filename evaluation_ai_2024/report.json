@@ -1,0 +1,173 @@
+{
+  "timestamp": "2025-09-03T19:49:43.523371",
+  "query": "What are the latest AI developments in 2024?",
+  "score": {
+    "accuracy": 3.333333333333333,
+    "coverage": 0.0,
+    "citations_quality": 5.0,
+    "clarity_structure": 5.0,
+    "overall": 2.75
+  },
+  "criteria": {
+    "goals": [
+      "Identify the most recent advancements in artificial intelligence during 2024"
+    ],
+    "constraints": [
+      "Focus on developments in 2024",
+      "Information should be up-to-date as of the time of query"
+    ],
+    "must_include": [],
+    "nice_to_have": [
+      "Categorization of advancements by AI subfield (e.g., NLP, computer vision, etc.)",
+      "Mention of key players or organizations driving these advancements",
+      "Highlighting of significant impacts or applications of these developments"
+    ],
+    "disallowed": [
+      "Information from before 2024",
+      "Speculation or opinions not backed by verifiable evidence"
+    ]
+  },
+  "fact_checks": [
+    {
+      "claim": "Large companies are leading the way in changes designed to generate future value from generative AI.",
+      "verdict": "insufficient",
+      "confidence": 0.6,
+      "rationale": "Source 1 mentions Microsoft and AWS as leaders in the generative AI market, which are large companies.  However, this only focuses on the foundational models, not necessarily their application for future value generation. Source 2 discusses maximizing the business value of Generative AI across companies without specifying size. Source 3 is irrelevant, providing only survey methodology details. While there's some suggestion that large companies are involved, the sources do not definitively support the claim that they are *leading* the way in *changes designed to generate future value* from generative AI.",
+      "sources": [
+        {
+          "title": "The leading generative AI companies - IoT Analytics",
+          "url": "https://iot-analytics.com/leading-generative-ai-companies/",
+          "snippet": "Microsoft and AWS lead the rapidly expanding foundation models and model management platforms market, while Accenture and Deloitte lead the"
+        },
+        {
+          "title": "Generate Value From GenAI With 'Small t' Transformations",
+          "url": "https://sloanreview.mit.edu/article/generate-value-from-gen-ai-with-small-t-transformations/",
+          "snippet": "How to Maximize the Business Value of Generative AI Research Feature #### How to Maximize the Business Value of Generative AI Generative AI is already being used in transformative ways in many compani"
+        },
+        {
+          "title": "[PDF] The state of AI - McKinsey",
+          "url": "https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/the%20state%20of%20ai/2025/the-state-of-ai-how-organizations-are-rewiring-to-capture-value_final.pdf",
+          "snippet": "Figures were calculated after removing the share who said \u201cdon\u2019t know/not applicable.\u201d Source: McKinsey Global Survey on the state of AI, 1,491 participants at all levels of the organization, July 16\u2013"
+        }
+      ]
+    },
+    {
+      "claim": "In 2024, there were major gains in model performance and record levels of private investment in AI.",
+      "verdict": "insufficient",
+      "confidence": 0.6,
+      "rationale": "Sources 1 and 2 support the claim of record investment in AI in 2024. However, Source 3 contradicts this, stating that global private investment in AI decreased for the second consecutive year.  The discrepancy between sources regarding overall AI investment makes a definitive verdict impossible. While generative AI investment may have boomed, the overall claim about *all* AI investment needs further clarification.",
+      "sources": [
+        {
+          "title": "Record investment & policy headline Stanford's AI report",
+          "url": "https://ecommercenews.in/story/record-investment-policy-headline-stanford-s-ai-report",
+          "snippet": "Stanford's AI Index Report reveals record private investment of USD $109.1 billion in 2024, with AI adoption soaring across industries"
+        },
+        {
+          "title": "AI Investment Landscape in 2025: Opportunities in a Volatile Market",
+          "url": "https://www.fticonsulting.com/insights/articles/ai-investment-landscape-2025-opportunities-volatile-market",
+          "snippet": "2024 turned out to be a record year for AI investments. Although global VC investments rose to $368.5 billion in 2024 (up 5.4%), the number of deals actually"
+        },
+        {
+          "title": "[PDF] Artificial Intelligence Index Report 2024 - AWS",
+          "url": "https://hai-production.s3.amazonaws.com/files/hai_ai-index-report-2024-smaller2.pdf",
+          "snippet": "Although global private investment in AI decreased for the second consecutive year, investment in generative. AI skyrocketed. More Fortune 500 earnings calls"
+        }
+      ]
+    },
+    {
+      "claim": "Bandwidth used for downloading Wikimedia's multimedia content grew by 50% since January 2024 due to increased web traffic from scraping bots collecting data to train generative AI models.",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "rationale": "All three sources state that Wikimedia's bandwidth usage increased by 50% since January 2024.  Source 1 and Source 2 explicitly attribute this increase to AI bots scraping data. Source 3 mentions the 50% increase in bandwidth for multimedia content over the past year (implying since January 2024 given the publication date). While Source 3 doesn't explicitly link the increase to AI bots, the other two sources strongly support that connection, making the overall claim well-supported.",
+      "sources": [
+        {
+          "title": "AI bots strain Wikimedia as bandwidth surges 50% - Ars Technica",
+          "url": "https://arstechnica.com/information-technology/2025/04/ai-bots-strain-wikimedia-as-bandwidth-surges-50/",
+          "snippet": "# AI bots strain Wikimedia as bandwidth surges 50% Automated AI bots seeking training data threaten Wikipedia project stability, foundation says. On Tuesday, the Wikimedia Foundation announced that re"
+        },
+        {
+          "title": "Wikipedia Faces Flood of AI Bots That Are Eating Bandwidth ...",
+          "url": "https://www.pcmag.com/news/wikipedia-faces-flood-of-ai-bots-that-are-eating-bandwidth-raising-costs",
+          "snippet": "'Our content is free, our infrastructure is not,' the nonprofit that runs Wikipedia says, warning that AI scrapers are wasting the site's bandwidth. The Foundation noted, for example, that \u201csince Janu"
+        },
+        {
+          "title": "The Battle Against the Bots - Plagiarism Today",
+          "url": "https://www.plagiarismtoday.com/2025/04/10/the-battle-against-the-bots/",
+          "snippet": "Apr 10, 2025\u00b7Last week, The Wikimedia Foundation announced that bandwidth used for downloading multimedia content had risen 50% over the past year."
+        }
+      ]
+    },
+    {
+      "claim": "While many companies explored AI through proofs of concept in 2024, fewer fully integrated it into their operations.",
+      "verdict": "supported",
+      "confidence": 0.8,
+      "rationale": "Source 2 explicitly states that only 26% of companies in 2024 moved beyond proofs of concept to achieve tangible value from AI.  This directly supports the claim that while many explored AI (as indicated by Sources 1 and 3), fewer fully integrated it. Source 1 and 3, while showing high levels of AI exploration or investment, do not contradict this finding; rather, they contextualize it by showing the broader trend of AI interest, highlighting the significant gap between exploration and full integration.",
+      "sources": [
+        {
+          "title": "AI in the workplace: A report for 2025 - McKinsey",
+          "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work",
+          "snippet": "Jan 28, 2025\u00b7Almost all companies invest in AI, but just 1% believe they are at maturity. Our new report looks at how AI is being used in the workplace"
+        },
+        {
+          "title": "AI Adoption in 2024: 74% of Companies Struggle to Achieve and ...",
+          "url": "https://www.bcg.com/press/24october2024-ai-adoption-in-2024-74-of-companies-struggle-to-achieve-and-scale-value",
+          "snippet": "Even with the widespread implementation of AI programs across industries, only 26% of companies have developed the necessary set of capabilities to move beyond proofs of concept and generate tangible "
+        },
+        {
+          "title": "The 7 Biggest AI Adoption Challenges for 2025 - Stack AI",
+          "url": "https://www.stack-ai.com/blog/the-biggest-ai-adoption-challenges",
+          "snippet": "Jul 30, 2025\u00b7In 2025, enterprise AI adoption is at an all-time high, with surveys showing that over 80% of companies are using or exploring AI. However, a"
+        }
+      ]
+    },
+    {
+      "claim": "In 2024, there was significant media attention to AI developments.",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "rationale": "Sources 1 and 2 explicitly mention significant media attention to AI in the context of the 2024 US election, focusing on AI's role in misinformation and deepfakes. Source 3, while not directly stating media attention, highlights 10 notable AI stories of 2024, implying substantial coverage.  The sources collectively strongly suggest significant media attention to AI developments in 2024.",
+      "sources": [
+        {
+          "title": "The origin of public concerns over AI supercharging misinformation ...",
+          "url": "https://misinforeview.hks.harvard.edu/article/the-origin-of-public-concerns-over-ai-supercharging-misinformation-in-the-2024-u-s-presidential-election/",
+          "snippet": "We surveyed 1,000 U.S. adults to understand concerns about the use of artificial intelligence (AI) during the 2024 U.S. presidential election and public perceptions of AI-driven misinformation. * The "
+        },
+        {
+          "title": "What's the Media Narrative on AI in 2024? - Code Red",
+          "url": "https://www.coderedcomms.com/knowledge-hub/global-insights/media-narrative-on-ai-2024/",
+          "snippet": "A major theme dominating the media is the use of AI in elections, disinformation and deepfakes. As the 2024 US election approaches, concerns about AI-generated"
+        },
+        {
+          "title": "AI 2024 in review: The 10 most notable AI stories of the year",
+          "url": "https://iot-analytics.com/ai-2024-10-most-notable-stories/",
+          "snippet": "This article highlights 10 of the most impactful developments as well as some general observations and developments in the field of AI in 2024."
+        }
+      ]
+    },
+    {
+      "claim": "Agentic AI is considered the next frontier for AI innovation.",
+      "verdict": "supported",
+      "confidence": 0.95,
+      "rationale": "All three sources explicitly refer to agentic AI as the next frontier in AI innovation, either broadly or within specific contexts (B2B or generative AI).  The Forbes and Adams Street Partners articles use the phrase 'next frontier' directly. While McKinsey focuses on agents within generative AI, the context strongly supports the broader claim.",
+      "sources": [
+        {
+          "title": "Agentic AI Is The Next Frontier Of B2B Innovation - Forbes",
+          "url": "https://www.forbes.com/councils/forbestechcouncil/2025/04/14/agentic-ai-is-the-next-frontier-of-b2b-innovation/",
+          "snippet": "Apr 14, 2025\u00b7Agentic AI is an advanced form of artificial intelligence that acts autonomously, making decisions and performing tasks without constant human guidance."
+        },
+        {
+          "title": "Why agents are the next frontier of generative AI - McKinsey",
+          "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/why-agents-are-the-next-frontier-of-generative-ai",
+          "snippet": "*   [](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/why-agents-are-the-next-frontier-of-generative-ai#) [Print](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insigh"
+        },
+        {
+          "title": "The Next Frontier: The Rise of Agentic AI - Adams Street Partners",
+          "url": "https://www.adamsstreetpartners.com/insights/the-next-frontier-the-rise-of-agentic-ai/",
+          "snippet": "* Agentic AI systems go beyond providing rote, predetermined outputs by autonomously executing intricate workflows and making dynamic decisions to achieve defined outcomes * While use cases are still "
+        }
+      ]
+    }
+  ],
+  "original_draft_length": 4649,
+  "fixed_draft_length": 2881,
+  "auto_fixed": true
+}

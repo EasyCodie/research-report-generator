@@ -1,0 +1,43 @@
+{
+  "name": "executive",
+  "description": "High-level summary focused on key findings and business implications",
+  "sections": {
+    "executiveSummary": {
+      "enabled": true,
+      "maxLength": 500,
+      "priority": 1
+    },
+    "keyFindings": {
+      "enabled": true,
+      "maxItems": 5,
+      "priority": 2
+    },
+    "recommendations": {
+      "enabled": true,
+      "priority": 3
+    },
+    "methodology": {
+      "enabled": false
+    },
+    "detailedAnalysis": {
+      "enabled": false
+    },
+    "technicalAppendix": {
+      "enabled": false
+    },
+    "citations": {
+      "enabled": true,
+      "style": "simple"
+    }
+  },
+  "formatting": {
+    "useBulletPoints": true,
+    "useVisualizations": true,
+    "maxReportLength": 2000,
+    "language": "business-friendly"
+  },
+  "sources": {
+    "prioritize": ["industry-reports", "news", "analyst-reports"],
+    "maxSources": 10
+  }
+}

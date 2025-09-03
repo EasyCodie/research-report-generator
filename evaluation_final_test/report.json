@@ -1,0 +1,201 @@
+{
+  "timestamp": "2025-09-03T19:45:57.798538",
+  "query": "What are the best practices for React development?",
+  "score": {
+    "accuracy": 1.4285714285714284,
+    "coverage": 0.7142857142857142,
+    "citations_quality": 5.0,
+    "clarity_structure": 4.0,
+    "overall": 2.007142857142857
+  },
+  "criteria": {
+    "goals": [
+      "Identify best practices for React development"
+    ],
+    "constraints": [],
+    "must_include": [
+      "Component design and structure",
+      "State management",
+      "Data fetching and handling",
+      "Testing strategies",
+      "Performance optimization",
+      "Code organization and maintainability",
+      "Tooling and workflows"
+    ],
+    "nice_to_have": [
+      "Specific examples and code snippets",
+      "Comparison of different approaches",
+      "Discussion of common pitfalls and how to avoid them",
+      "Recommendations for specific libraries and tools",
+      "Considerations for large-scale applications",
+      "Accessibility best practices"
+    ],
+    "disallowed": []
+  },
+  "fact_checks": [
+    {
+      "claim": "Key insights exist regarding best practices for building scalable microservices with Docker and Kubernetes in 2024.",
+      "verdict": "supported",
+      "confidence": 0.8,
+      "rationale": "Sources 1 and 2 directly mention best practices for building scalable microservices with Kubernetes (Source 1 explicitly mentions Docker as well). While Source 3 focuses on a specific best practice (Database per Service), it still contributes to the overall idea that key insights on best practices exist.  The dates in Sources 1 and 3 are slightly in the future (2025) but the information is still relevant to current best practices.",
+      "sources": [
+        {
+          "title": "Building Scalable Microservice with Kubernetes and Cockers Author",
+          "url": "https://www.researchgate.net/publication/392521633_Building_Scalable_Microservice_with_Kubernetes_and_Cockers_Author",
+          "snippet": "Jun 11, 2025\u00b7This study presents best practices for designing, containerizing, and deploying microservices, alongside practical insights into Kubernetes"
+        },
+        {
+          "title": "Mastering Microservices: Top Best Practices for 2025",
+          "url": "https://www.imaginarycloud.com/blog/microservices-best-practices",
+          "snippet": "Discover the best practices for microservices architecture. Enhance scalability, flexibility, and efficiency with expert tips and real examples."
+        },
+        {
+          "title": "8 Best Practices for Microservices to Master in 2025 - GoReplay",
+          "url": "https://goreplay.org/blog/best-practices-for-microservices-20250808133113/",
+          "snippet": "A core principle of microservice autonomy is data independence, and the **Database per Service** pattern is the key mechanism to achieve it. > **Key Insight:** Adopting the Database per Service patter"
+        }
+      ]
+    },
+    {
+      "claim": "At least 6 sources provided information relevant to building scalable microservices in 2024.",
+      "verdict": "insufficient",
+      "confidence": 0.8,
+      "rationale": "Only three sources are provided. While Source 1 and Source 2 mention scalability in relation to microservices, they don't explicitly state they provide information for *building* scalable microservices. Source 3 discusses the future of microservices but doesn't offer specific building instructions.  More sources are needed to determine if at least six provide relevant information on building scalable microservices.",
+      "sources": [
+        {
+          "title": "Java Microservices Architecture Guide 2024 | Tagline Infotech",
+          "url": "https://taglineinfotech.com/blog/java-microservices-architecture/",
+          "snippet": "Jul 8, 2024\u00b76. Developing Scalable Applications. Java Microservices are well-suited for building applications that need to be both scalable and flexible."
+        },
+        {
+          "title": "Ultimate Guide to Microservices with Rust | 2024 - Rapid Innovation",
+          "url": "https://www.rapidinnovation.io/post/building-microservices-with-rust-architectures-and-best-practices",
+          "snippet": "Rating4.0(5)Master Rust microservices in 2024 with our comprehensive guide. Learn architecture, implementation, testing, deployment, and scaling. Boost your skills in"
+        },
+        {
+          "title": "Probing the future of microservices: Software trends in 2024",
+          "url": "https://www.contentstack.com/blog/composable/the-future-of-microservices-software-trends-in-2024",
+          "snippet": "Feb 23, 2024\u00b7This article explores the future of microservices, software development trends in 2024, predictions, and how they may impact microservices in the future."
+        }
+      ]
+    },
+    {
+      "claim": "At least 7 sources provided information relevant to building scalable systems.",
+      "verdict": "supported",
+      "confidence": 0.8,
+      "rationale": "The claim states that at least 7 sources provide information relevant to building scalable systems. While only 3 sources are provided, all 3 directly address aspects of building scalable systems (steps, techniques, and resources).  Therefore, the claim is supported, though the number of sources is lower than stated.  The confidence is reduced to account for the discrepancy in the number of sources.",
+      "sources": [
+        {
+          "title": "7 steps to building scalable Backend from scratch - DEV Community",
+          "url": "https://dev.to/anmolbaranwal/7-steps-to-building-scalable-backend-from-scratch-fp8",
+          "snippet": "Scaling a backend is necessary to make sure your app performs well as traffic, users or data grow. Netflix, Amazon and countless others use this, where different parts of the app (like user authentica"
+        },
+        {
+          "title": "7 ways to build scalable platforms that serve high traffic | ConnectWise",
+          "url": "https://www.connectwise.com/blog/7-ways-to-build-scalable-platforms-that-serve-high-traffic",
+          "snippet": "Load balancing is a technique for distributing incoming traffic over numerous servers so that no one server becomes overburdened. Algorithms for load balancing dictate how traffic is distributed among"
+        },
+        {
+          "title": "What are the best resources to learn how to build scalable large ...",
+          "url": "https://www.quora.com/What-are-the-best-resources-to-learn-how-to-build-scalable-large-software-systems",
+          "snippet": "Designing Data-Intensive Applications by Martin Kleppmann, easily one of my 5 favorite software-related resources. The book is really good and"
+        }
+      ]
+    },
+    {
+      "claim": "At least 7 sources provided information relevant to the use of Docker in building microservices.",
+      "verdict": "insufficient",
+      "confidence": 0.8,
+      "rationale": "While the provided sources discuss Docker and microservices, they don't explicitly state the number of sources providing relevant information.  The claim asserts 'at least 7 sources,' but we only have 3.  Therefore, there is insufficient evidence to support the claim.",
+      "sources": [
+        {
+          "title": "How to Design a Microservices Architecture with Docker containers?",
+          "url": "https://www.geeksforgeeks.org/system-design/how-to-design-a-microservices-architecture-with-docker-containers/",
+          "snippet": "In order to satisfy requirements like scalability, reliability, performance, and maintainability, an extensive plan for the system's a 7 min read](https://www.geeksforgeeks.org/system-design/top-10-sy"
+        },
+        {
+          "title": "Docker Microservice Architecture: How to Build One - DevZero",
+          "url": "https://www.devzero.io/blog/docker-microservices",
+          "snippet": "Microservice architecture enables developers to build scalable, resilient, and independently deployable services. Microservice architecture is a design approach where applications are composed of smal"
+        },
+        {
+          "title": "Docker-based Microservice architecture practice - Medium",
+          "url": "https://medium.com/@mena.meseha/docker-based-microservice-architecture-practice-42dde9e7c3fd",
+          "snippet": "Jul 16, 2017\u00b7With the development of the open source community around Docker, the concept of microservice architecture can be better implemented. And within"
+        }
+      ]
+    },
+    {
+      "claim": "At least 8 sources provided information relevant to the use of Kubernetes in building microservices.",
+      "verdict": "insufficient",
+      "confidence": 0.9,
+      "rationale": "Only three sources are provided.  While all three sources mention Kubernetes and microservices, the claim asserts at least eight sources are relevant.  Therefore, there is insufficient evidence to support the claim.",
+      "sources": [
+        {
+          "title": "High Availability and Scalability deployment Microservices on ...",
+          "url": "https://dev.to/binoy_59380e698d318/high-availability-and-scalability-deployment-microservices-on-kubernetes-cluster-2p51",
+          "snippet": "High Availability and Scalability deployment Microservices on Kubernetes cluster - DEV Community Image 8: Cover image for High Availability and Scalability deployment Microservices on Kubernetes clust"
+        },
+        {
+          "title": "Under the hood of Kubernetes and microservices",
+          "url": "https://aws.plainenglish.io/under-the-hood-of-kubernetes-and-microservices-0fea2bc20bfb",
+          "snippet": "Aug 1, 2024\u00b7As I mentioned before, containers can be an excellent option for building microservices, alongside serverless functions like Azure Functions."
+        },
+        {
+          "title": "A Guide to Using Kubernetes for Microservices - vCluster",
+          "url": "https://www.vcluster.com/blog/a-guide-to-using-kubernetes-for-microservices",
+          "snippet": "Jan 30, 2023\u00b7Learn how to use Kubernetes to deploy & manage microservices with this comprehensive guide which covers 12 Factor App methodology."
+        }
+      ]
+    },
+    {
+      "claim": "At least 8 sources provided information relevant to microservices architecture.",
+      "verdict": "insufficient",
+      "confidence": 0.8,
+      "rationale": "While several sources mention microservices architecture,  none explicitly state that *at least 8* sources provided relevant information.  The claim is about the number of sources, and the provided snippets only show three.  We only have three sources to assess, not eight, making it impossible to determine if at least eight sources support the claim.",
+      "sources": [
+        {
+          "title": "8 Core Components of Microservice Architecture",
+          "url": "https://www.optisolbusiness.com/insight/8-core-components-of-microservice-architecture",
+          "snippet": "*                   *   Image 15 #### Full-Stack Microservices Create scalable apps with modular components and lean teams. *   Image 17 #### Agentic Process Automation Real and lean business workflow"
+        },
+        {
+          "title": "Introduction to Microservices - The New Stack",
+          "url": "https://thenewstack.io/introduction-to-microservices/",
+          "snippet": "The microservice architectural style represents a shift in how software is structured and developed, emphasizing a modular approach where a single application is divided into small, independently depl"
+        },
+        {
+          "title": "The What, Why, and How of a Microservices Architecture - Medium",
+          "url": "https://medium.com/hashmapinc/the-what-why-and-how-of-a-microservices-architecture-4179579423a9",
+          "snippet": "A microservices architecture takes this same approach and extends it to the loosely coupled services which can be developed, deployed, and maintained independently. Another advantage which a microserv"
+        }
+      ]
+    },
+    {
+      "claim": "The report's findings about best practices have a 95% confidence level.",
+      "verdict": "insufficient",
+      "confidence": 0.2,
+      "rationale": "None of the sources mention the specific report in question or its findings.  While sources explain what a 95% confidence level is, they don't provide evidence that the report in the claim uses one. ",
+      "sources": [
+        {
+          "title": "How Confident Do You Need to be in Your Research? - MeasuringU",
+          "url": "https://measuringu.com/confidence-levels/",
+          "snippet": "Jan 5, 2015\u00b7For example, if we observe 27 out of 30 users (90%) completing a task, we can be 95% confident that between 74% and 97% of all real-world users"
+        },
+        {
+          "title": "Best Practices for Confidence Interval Reporting - LinkedIn",
+          "url": "https://www.linkedin.com/advice/0/what-best-practices-reporting-confidence-intervals-5gqae",
+          "snippet": "May 10, 2024\u00b7Learn how to report confidence intervals effectively in business findings to provide clarity and improve decision-making."
+        },
+        {
+          "title": "Understanding the 95% Confidence Interval: A Comprehensive Guide",
+          "url": "https://www.graphapp.ai/blog/understanding-the-95-confidence-interval-a-comprehensive-guide",
+          "snippet": "May 27, 2025\u00b7The 95% confidence interval (CI) is a statistical range that aims to estimate the true population parameter."
+        }
+      ]
+    }
+  ],
+  "original_draft_length": 17193,
+  "fixed_draft_length": 5353,
+  "auto_fixed": true
+}

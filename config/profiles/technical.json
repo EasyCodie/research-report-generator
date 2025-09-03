@@ -1,0 +1,58 @@
+{
+  "name": "technical",
+  "description": "Detailed technical analysis with code examples and implementation details",
+  "sections": {
+    "executiveSummary": {
+      "enabled": true,
+      "maxLength": 800,
+      "priority": 2
+    },
+    "technicalOverview": {
+      "enabled": true,
+      "priority": 1
+    },
+    "detailedAnalysis": {
+      "enabled": true,
+      "includeCodeExamples": true,
+      "priority": 3
+    },
+    "comparisonTables": {
+      "enabled": true,
+      "priority": 4
+    },
+    "performanceMetrics": {
+      "enabled": true,
+      "priority": 5
+    },
+    "implementation": {
+      "enabled": true,
+      "includeExamples": true,
+      "priority": 6
+    },
+    "methodology": {
+      "enabled": true,
+      "priority": 7
+    },
+    "technicalAppendix": {
+      "enabled": true,
+      "priority": 8
+    },
+    "citations": {
+      "enabled": true,
+      "style": "detailed",
+      "includeSourceCode": true
+    }
+  },
+  "formatting": {
+    "useCodeBlocks": true,
+    "useDiagrams": true,
+    "maxReportLength": 10000,
+    "language": "technical",
+    "includeMetrics": true
+  },
+  "sources": {
+    "prioritize": ["github", "documentation", "technical-blogs", "stackoverflow", "arxiv"],
+    "maxSources": 25,
+    "includeCodeRepositories": true
+  }
+}

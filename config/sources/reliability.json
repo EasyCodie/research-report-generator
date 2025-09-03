@@ -1,0 +1,83 @@
+{
+  "domains": {
+    "github.com": {
+      "score": 0.95,
+      "rationale": "Official source code repository with version control",
+      "factors": {
+        "authoritative": true,
+        "peerReviewed": true,
+        "communityDriven": true
+      }
+    },
+    "arxiv.org": {
+      "score": 0.90,
+      "rationale": "Pre-print server for scientific papers",
+      "factors": {
+        "academic": true,
+        "peerReviewed": false,
+        "citeable": true
+      }
+    },
+    "stackoverflow.com": {
+      "score": 0.75,
+      "rationale": "Community-driven Q&A with voting system",
+      "factors": {
+        "communityVerified": true,
+        "votingSystem": true,
+        "userGenerated": true
+      }
+    },
+    "medium.com": {
+      "score": 0.60,
+      "rationale": "User-generated blog content",
+      "factors": {
+        "userGenerated": true,
+        "editorial": false,
+        "varied": true
+      }
+    },
+    "wikipedia.org": {
+      "score": 0.80,
+      "rationale": "Community-edited encyclopedia with citations",
+      "factors": {
+        "communityEdited": true,
+        "citationRequired": true,
+        "moderated": true
+      }
+    },
+    "docs.microsoft.com": {
+      "score": 0.95,
+      "rationale": "Official Microsoft documentation",
+      "factors": {
+        "official": true,
+        "maintained": true,
+        "authoritative": true
+      }
+    },
+    "developer.mozilla.org": {
+      "score": 0.95,
+      "rationale": "Mozilla Developer Network - authoritative web documentation",
+      "factors": {
+        "official": true,
+        "communityContributed": true,
+        "wellMaintained": true
+      }
+    }
+  },
+  "defaultScore": 0.50,
+  "httpsBonus": 0.05,
+  "ageFactors": {
+    "recent": {
+      "days": 30,
+      "bonus": 0.10
+    },
+    "stale": {
+      "days": 365,
+      "penalty": -0.10
+    },
+    "veryOld": {
+      "days": 730,
+      "penalty": -0.20
+    }
+  }
+}

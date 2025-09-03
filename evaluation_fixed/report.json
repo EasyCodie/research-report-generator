@@ -1,0 +1,232 @@
+{
+  "timestamp": "2025-09-03T19:44:12.670340",
+  "query": "Best practices for building scalable microservices with Docker and Kubernetes in 2024",
+  "score": {
+    "accuracy": 1.5,
+    "coverage": 0.0,
+    "citations_quality": 5.0,
+    "clarity_structure": 4.0,
+    "overall": 1.8250000000000002
+  },
+  "criteria": {
+    "goals": [
+      "Identify best options with justification"
+    ],
+    "constraints": [
+      "Be factual and accurate",
+      "Use credible sources"
+    ],
+    "must_include": [],
+    "nice_to_have": [
+      "Recent information (2023-2024)",
+      "Multiple perspectives"
+    ],
+    "disallowed": [
+      "Speculation without evidence",
+      "Outdated information"
+    ]
+  },
+  "fact_checks": [
+    {
+      "claim": "# Research Report\n\n**Report ID**: 6b5e31af-21b7-4303-a109-3c921d60fe67\n**Generated**: 2025-09-03T15:29:39",
+      "verdict": "insufficient",
+      "confidence": 0.3,
+      "rationale": "No clear supporting evidence found",
+      "sources": []
+    },
+    {
+      "claim": "806Z\n**Query**: \"Best practices for building scalable microservices with Docker and Kubernetes in 2024\"\n\n## Executive Summary\n\nThis research report presents key findings based on analysis of multiple sources:\n\n**Finding 1**: Key insights about best\n- Confidence: 95%\n- Based on 9 sources\n\n**Finding 2**: Key insights about practices\n- Confidence: 95%\n- Based on 8 sources\n\n**Finding 3**: Key insights about for\n- Confidence: 95%\n- Based on 15 sources\n\n**Finding 4**: Key insights about microservices\n- Confidence: 95%\n- Based on 8 sources\n\n**Finding 5**: Key insights about with\n- Confidence: 95%\n- Based on 8 sources\n\n**Finding 6**: Key insights about docker\n- Confidence: 95%\n- Based on 8 sources\n\n**Finding 7**: Key insights about kubernetes\n- Confidence: 95%\n- Based on 10 sources\n\n**Finding 8**: Key insights about 2024\n- Confidence: 95%\n- Based on 6 sources\n\n**Finding 9**: Key insights about building\n- Confidence: 95%\n- Based on 7 sources\n\n**Finding 10**: Key insights about scalable\n- Confidence: 95%\n- Based on 7 sources\n\n\n\n## Detailed Findings\n\n### Finding 1\n\n**Claim**: Key insights about best\n\n**Evidence**:\n- 23, 2025",
+      "verdict": "insufficient",
+      "confidence": 0.3,
+      "rationale": "No clear supporting evidence found",
+      "sources": []
+    },
+    {
+      "claim": "microservices architecture with docker and kubernetes a mar 10 2024 microservices",
+      "verdict": "supported",
+      "confidence": 0.7,
+      "rationale": "Found 2 sources with matching content",
+      "sources": [
+        {
+          "title": "[PDF] Kubernetes Microservices Architecture Diagram",
+          "url": "https://www.voteforthepig.tennessee.edu/scholarship/4P8036/HomePages/KubernetesMicroservicesArchitectureDiagram.pdf",
+          "snippet": "Aug 23, 2025\u00b7Microservices Architecture with Docker and Kubernetes A Mar 10 2024 Microservices architecture has become the standard for building scalable"
+        },
+        {
+          "title": "Top 10 Microservices Frameworks for Programmers in 2024",
+          "url": "https://moldstud.com/articles/p-top-10-microservices-frameworks-every-programmer-should-know-in-2024",
+          "snippet": "Mar 14, 2025\u00b7Docker and Kubernetes: Orchestration for Microservices. Adopt Docker and Kubernetes to streamline your application deployment and management"
+        },
+        {
+          "title": "Under the hood of Kubernetes and microservices",
+          "url": "https://aws.plainenglish.io/under-the-hood-of-kubernetes-and-microservices-0fea2bc20bfb",
+          "snippet": "Aug 1, 2024\u00b7In this blog, we'll explore the shift from monolithic to microservices architectures, and understand containers and Kubernetes. From monolithic"
+        }
+      ]
+    },
+    {
+      "claim": "best practices for kubernetes microservices architecture",
+      "verdict": "supported",
+      "confidence": 0.7,
+      "rationale": "Found 2 sources with matching content",
+      "sources": [
+        {
+          "title": "Kubernetes for Microservices: Best Practices and Patterns",
+          "url": "https://dev.to/rubixkube/kubernetes-for-microservices-best-practices-and-patterns-2440",
+          "snippet": "# Kubernetes for Microservices: Best Practices and Patterns Kubernetes excels in handling microservices because it simplifies scaling, monitoring, and managing application lifecycles. This blog explor"
+        },
+        {
+          "title": "A Guide to Microservices Best Practices - DevZero",
+          "url": "https://www.devzero.io/blog/microservices-best-practices",
+          "snippet": "## **What Are Microservices?** Microservices architecture is a software development approach where applications are built as a collection of loosely coupled services. Each service is independent, perf"
+        },
+        {
+          "title": "MicroServices Best Practices - Medium",
+          "url": "https://medium.com/@rocky.bhatia86/microservices-best-practices-ccc6706f46c1",
+          "snippet": "Microservices allow teams to break down complex systems into manageable, independent components, making it easier to build and maintain applications that are scalable, resilient, and easier to manage."
+        }
+      ]
+    },
+    {
+      "claim": "- ls can help with service discovery",
+      "verdict": "insufficient",
+      "confidence": 0.3,
+      "rationale": "No clear supporting evidence found",
+      "sources": [
+        {
+          "title": "Service discovery and load balancers with high-frequency health ...",
+          "url": "https://softwareengineering.stackexchange.com/questions/440242/service-discovery-and-load-balancers-with-high-frequency-health-checks",
+          "snippet": "Service discovery -- when implemented properly -- keeps each instance of each service aware of all the valid IPs/addresses of all the services"
+        },
+        {
+          "title": "Basic Service Discovery and Autodiscovery Examples ... - Device42",
+          "url": "https://www.device42.com/blog/2023/08/16/basic-service-discovery-and-autodiscovery-examples-with-kubernetes-docker-swarm-and-device42/",
+          "snippet": "Service discovery is the process of automatically locating and accessing network services within a distributed system."
+        },
+        {
+          "title": "What is service discovery, and why do you need it? - Stack Overflow",
+          "url": "https://stackoverflow.com/questions/37148836/what-is-service-discovery-and-why-do-you-need-it",
+          "snippet": "In order to do so, we will use the service-discovery tool to provide us, **at any given time**, an address of one of the live B nodes. So, trying to answer your above questions, putting the end-point "
+        }
+      ]
+    },
+    {
+      "claim": "- itectural design, while also reviewing various tools and technologies and making recommendations on best practices for creating more advanced and scalable systems in 2024",
+      "verdict": "insufficient",
+      "confidence": 0.3,
+      "rationale": "No clear supporting evidence found",
+      "sources": [
+        {
+          "title": "5 Best Software Architecture Tools of 2025",
+          "url": "https://vfunction.com/blog/software-architecture-tools/",
+          "snippet": "Software architecture tools bridge the gap between design concepts and practical implementation, empowering architects and developers to create scalable, efficient, and maintainable applications. Thes"
+        },
+        {
+          "title": "InfoQ Architecture and Design Trends in 2024",
+          "url": "https://www.infoq.com/podcasts/infoq-architecture-trends-2024/",
+          "snippet": "These reports provide the InfoQ readers with a high-level overview of the topics to pay attention to this year, and also help the editorial team"
+        },
+        {
+          "title": "Architectural Design Trends 2024: Innovations in ...",
+          "url": "https://www.format.com/magazine/resources/architecture/architectural-design-trends-2024",
+          "snippet": "[![Share on Facebook](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='512'%20height='512'%20viewBox='0%200%20512%20512'%3E%3C/svg%3E)![Share on Facebook](/wp-content/uploads/fa"
+        }
+      ]
+    },
+    {
+      "claim": "- go r/django r/django news and links for the django community",
+      "verdict": "insufficient",
+      "confidence": 0.3,
+      "rationale": "No clear supporting evidence found",
+      "sources": [
+        {
+          "title": "Django Community",
+          "url": "https://www.djangoproject.com/community/",
+          "snippet": "Community \u00b7 Get Help \u00b7 Third Party Packages \u00b7 Get Involved \u00b7 Django RSS feeds \u00b7 Community blog posts \u00b7 Django jobs \u00b7 Django Q&A \u00b7 Django links."
+        },
+        {
+          "title": "Django News",
+          "url": "https://django-news.com/",
+          "snippet": "Weekly Django news, articles, projects, and more. # A New Django Fellow Jacob Tyler Walls joins the Django Fellowship, bringing Django contributions, Triage and Review experience, ORM expertise, and G"
+        },
+        {
+          "title": "Django: The web framework for perfectionists with deadlines",
+          "url": "https://www.djangoproject.com/",
+          "snippet": "Django Get started with Django # Meet Django :   Django was designed to help developers take applications from concept to completion as quickly as possible. Learn more about Django Django documentatio"
+        }
+      ]
+    },
+    {
+      "claim": "- nd test of production",
+      "verdict": "insufficient",
+      "confidence": 0.3,
+      "rationale": "No clear supporting evidence found",
+      "sources": [
+        {
+          "title": "What Is Non-Destructive Testing (NDT)? A Complete Guide | UTI",
+          "url": "https://www.uti.edu/blog/ndt/what-is-non-destructive-testing",
+          "snippet": "Apr 7, 2023\u00b7Non-destructive testing (NDT) is a set of testing and analysis processes that evaluate the quality and structural integrity of a manufactured product."
+        },
+        {
+          "title": "NDT in Manufacturing - Raw Materials to Final Products - ASNT",
+          "url": "https://www.asnt.org/what-is-nondestructive-testing/industries/manufacturing",
+          "snippet": "Nondestructive testing (NDT) is essential for compliance, risk management, safety, and consumer confidence in the products we rely on in our daily lives."
+        },
+        {
+          "title": "Non-destructive testing (NDT) in the forging industry",
+          "url": "https://www.ulmaforge.com/en/new/non-destructive-testing-ndt-in-the-forging-industry/",
+          "snippet": "Nov 15, 2022\u00b7Non-Destructive Testing (NDT) is a term used to describe inspections that provide information about an object without damaging it in any way"
+        }
+      ]
+    },
+    {
+      "claim": "to ensure the success of microservices architecture, it is crucial to follow best practices that address key challenges and promote effective development and deployment strategies",
+      "verdict": "supported",
+      "confidence": 0.7,
+      "rationale": "Found 2 sources with matching content",
+      "sources": [
+        {
+          "title": "10 Microservice Best Practices for System Design Interview",
+          "url": "https://dev.to/somadevtoo/10-microservice-best-practices-for-building-scalable-and-resilient-apps-1p0j",
+          "snippet": "# 10 Microservice Best Practices for System Design Interview To ensure the success of microservices architecture, it is crucial to follow best practices that address key challenges and promote effecti"
+        },
+        {
+          "title": "Java Microservices - Best Practices for Effective Development",
+          "url": "https://moldstud.com/articles/p-java-microservices-best-practices-for-effective-development",
+          "snippet": "Explore best practices for developing Java microservices, including architecture, deployment, testing, and scaling strategies to enhance application performance. The 2025 Microservices Adoption Survey"
+        },
+        {
+          "title": "Mastering Microservices: Top Best Practices for 2025",
+          "url": "https://www.imaginarycloud.com/blog/microservices-best-practices",
+          "snippet": "Discover the best practices for microservices architecture. Enhance scalability, flexibility, and efficiency with expert tips and real examples."
+        }
+      ]
+    },
+    {
+      "claim": "- services, developers can leverage tools and practices designed to enhance scalability",
+      "verdict": "insufficient",
+      "confidence": 0.3,
+      "rationale": "No clear supporting evidence found",
+      "sources": [
+        {
+          "title": "Scalability in Software Development | by Configr Technologies",
+          "url": "https://configr.medium.com/scalability-in-software-development-f0e47cd7b4b2",
+          "snippet": "Additionally, we will thoroughly look at building scalable applications that can gracefully handle increased user loads and growing volumes of data. * **Solution:** Adopted a microservices architectur"
+        },
+        {
+          "title": "Understanding Service Scalability in Software Development",
+          "url": "https://teamhub.com/blog/understanding-service-scalability-in-software-development/",
+          "snippet": "# Understanding Service Scalability in Software Development In this article, we will delve into the concept of service scalability, explore its importance in software development, discuss key componen"
+        },
+        {
+          "title": "Essential Application Scaling Techniques & Tools in 2025 - Index.dev",
+          "url": "https://www.index.dev/blog/efficient-application-scaling",
+          "snippet": "It covers a wide range of topics including vertical and horizontal scaling approaches, microservices, load balancing, caching, database optimization, cloud-based scaling, monitoring, and performance m"
+        }
+      ]
+    }
+  ],
+  "original_draft_length": 17193,
+  "fixed_draft_length": 2537,
+  "auto_fixed": true
+}

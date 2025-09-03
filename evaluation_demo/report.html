@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Evaluation Report</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 900px; 
+            margin: 0 auto; 
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 { color: #333; }
+        .score-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin: 5px;
+        }
+        .score-good { background: #4caf50; color: white; }
+        .score-medium { background: #ff9800; color: white; }
+        .score-poor { background: #f44336; color: white; }
+        .fact-check {
+            margin: 10px 0;
+            padding: 15px;
+            border-left: 4px solid #2196F3;
+            background: #f0f8ff;
+        }
+        .verdict-supported { border-color: #4caf50; background: #e8f5e9; }
+        .verdict-contradicted { border-color: #f44336; background: #ffebee; }
+        .verdict-insufficient { border-color: #ff9800; background: #fff3e0; }
+        pre { background: #f4f4f4; padding: 10px; overflow-x: auto; }
+        .toggle-section {
+            cursor: pointer;
+            user-select: none;
+            padding: 10px;
+            background: #e0e0e0;
+            margin: 10px 0;
+        }
+        .toggle-content {
+            display: none;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .toggle-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Evaluation Report</h1>
+        
+        <h2>Query</h2>
+        <p>What are the best JavaScript frameworks for building modern web applications in 2024?</p>
+        
+        <h2>Evaluation Scores</h2>
+        <p>
+            <span class="score-badge score-poor">
+                Overall: 2.44/5.00
+            </span>
+        </p>
+        <ul>
+            <li>Accuracy: 2.86/5.00 (45% weight)</li>
+            <li>Coverage: 0.00/5.00 (30% weight)</li>
+            <li>Citations Quality: 5.00/5.00 (15% weight)</li>
+            <li>Clarity & Structure: 4.00/5.00 (10% weight)</li>
+        </ul>
+        
+        <h2>Fact-Check Results</h2>
+        <p>Checked 7 claims:</p>
+
+        <div class="fact-check verdict-insufficient">
+            <strong>Claim 1:</strong> Shopify, Slack, Snapchat, Squarespace, Tesla, The New York Times, Typeform, Twitter, Uber, Udemy, Wh...<br>
+            <strong>Verdict:</strong> insufficient (confidence: 0.30)<br>
+            <strong>Rationale:</strong> Source 1 mentions Shopify and Slack using JavaScript frameworks.  However, the claim includes many other companies whose use of JavaScript frameworks is not mentioned in any of the provided sources. Source 2 is irrelevant, and Source 3 only discusses companies using Shopify, not whether they use JavaScript frameworks.
+        </div>
+
+        <div class="fact-check verdict-supported">
+            <strong>Claim 2:</strong> There are multiple excellent JavaScript frameworks available for web application development....<br>
+            <strong>Verdict:</strong> supported (confidence: 0.80)<br>
+            <strong>Rationale:</strong> Sources 1, 2, and 3 all list multiple JavaScript frameworks suitable for web application development.  Source 1 explicitly mentions React, Angular, and Vue.js as excellent options, while Source 2 and 3 list several more, highlighting their popularity and suitability. While none explicitly use the word 'excellent', the context of the articles (listing them as 'best' or 'top') strongly implies a positive assessment of their quality.
+        </div>
+
+        <div class="fact-check verdict-contradicted">
+            <strong>Claim 3:</strong> Laravel is a JavaScript framework....<br>
+            <strong>Verdict:</strong> contradicted (confidence: 0.95)<br>
+            <strong>Rationale:</strong> Sources 1 and 2 explicitly state that Laravel is a back-end framework written in PHP, not JavaScript.  Source 1 highlights the difference between JavaScript (client-side) and Laravel (server-side). Source 2 emphasizes Laravel's independence from JavaScript frameworks.  Therefore, the claim that Laravel is a JavaScript framework is clearly contradicted.
+        </div>
+
+        <div class="fact-check verdict-supported">
+            <strong>Claim 4:</strong> Vue.js has fewer third-party libraries and tools compared to React and Angular....<br>
+            <strong>Verdict:</strong> supported (confidence: 0.80)<br>
+            <strong>Rationale:</strong> Source 1 explicitly states that Vue.js has a smaller ecosystem and limited support and third-party libraries compared to Angular and React.  Source 2, while focusing on job market demand, implicitly supports the claim by mentioning React's 'popular ecosystem,' suggesting Vue's is less so. Source 3 is not directly relevant to the claim about the number of third-party libraries.
+        </div>
+
+        <div class="fact-check verdict-insufficient">
+            <strong>Claim 5:</strong> Inertia.js is useful for building reusable and maintainable components in Laravel....<br>
+            <strong>Verdict:</strong> insufficient (confidence: 0.30)<br>
+            <strong>Rationale:</strong> No clear supporting evidence found
+        </div>
+
+        <div class="toggle-section" onclick="toggleSection('fixed')">
+            ▶ Show Auto-Fixed Version
+        </div>
+        <div id="fixed" class="toggle-content">
+            <h1>Research Report</h1>
+<p><strong>Report ID</strong>: 1ea40f8a-0044-498c-82ae-254b6d14a7f5
+<strong>Generated</strong>: 2025-09-03T16:51:23.756Z
+<strong>Query</strong>: "What are the best JavaScript frameworks for building modern web applications in 2024?"</p>
+<h2>Executive Summary</h2>
+<p>This research report presents key findings based on analysis of multiple sources:</p>
+<p><strong>Finding 1</strong>: Key insights about what
+- Confidence: 95%
+- Based on 5 sources</p>
+<p><strong>Finding 2</strong>: Key insights about best
+- Confidence: 95%
+- Based on 5 sources</p>
+<p><strong>Finding 3</strong>: Key insights about javascript
+- Confidence: 95%
+- Based on 7 sources</p>
+<p><strong>Finding 4</strong>: Key insights about frameworks
+- Confidence: 95%
+- Based on 6 sources</p>
+<p><strong>Finding 5</strong>: Key insights about for
+- Confidence: 95%
+- Based on 11 sources</p>
+<p><strong>Finding 6</strong>: Key insights about building
+- Confidence: 95%
+- Based on 6 sources</p>
+<p><strong>Finding 7</strong>: Key insights about modern
+- Confidence: 95%
+- Based on 6 sources</p>
+<p><strong>Finding 8</strong>: Key insights about web
+- Confidence: 95%
+- Based on 9 sources</p>
+<p><strong>Finding 9</strong>: Key insights about applications
+- Confidence: 95%
+- Based on 6 sources</p>
+<p><strong>Finding 10</strong>: Key insights about 2024
+- Confidence: 95%
+- Based on 7 sources</p>
+<h2>Detailed Findings</h2>
+<h3>Finding 1</h3>
+<p><strong>Claim</strong>: Key insights about what</p>
+<p><strong>Evidence</strong>:
+- ist full of excellent options. let’s continue reading this article to integrate the best framework. what are the top 10 web application development frameworks? 1.
+- , shopify, slack, snapchat, squarespace, tesla, the new york times, typeform, twitter, uber, udemy, whatsapp, zendesk. learn more about testing react applications through this react testing tutorial. 2. a
+- e overall performance.
+- -based structure that helps in building reusable and maintainable components.
+- in laravel. thats where inertia shines. in this article i cover those topics and would like to know what are your thoughts https://www.amitavroy.</p>
+<p><strong>Confidence</strong>: 95%</p>
+<h3>Finding 2</h3>
+<p><strong>Claim</strong>: Key insights about best</p>
+<p><strong>Evidence</strong>:
+- we have got a list full of excellent options. let’s continue reading this article to integrate the best framework. what are the top 10 web application development frameworks? 1.
+- home / blog / 27 best javascript frameworks for 2025 javascriptweb development 27 best javascript frameworks for 2025 meh
+- do, and explore a list of top javascript frameworks for 2024, along with some tips on choosing the best one for your project.
+- ar structure that gives developers the flexibility to choose the tools, libraries, and architecture best suited for their projects.
+- and angular, vue has fewer third-party libraries and tools. community fragmentation: variations in best practices can be confusing. advice: vue.</p>
+<p><strong>Confidence</strong>: 95%</p>
+<h3>Finding 3</h3>
+<p><strong>Claim</strong>: Key insights about javascript</p>
+<p><strong>Evidence</strong>:
+- s. these components include: grids pivot grids exporters layouts charts d3 adapters. start building javascript apps faster and boost your bottom-line revenue.
+- home / blog / 27 best javascript frameworks for 2025 javascriptweb development 27 best javascript frameworks for 2025 mehul gadhiya
+- top 10 most popular javascript frameworks to choose in 2024evincedev5 min read·nov 22, 2023--listensharepress enter or click to vi
+- te of time? question i got into webdev about 2 years ago and in the beginning only learned html and javascript.
+- javascript stands as a dynamic and multi-paradigm language, boasting first-class functions. notably, it domina
+- ld modern web apps article laravel is my goto framework for backend development. and i really enjoy javascript for frontend stuff using vue or even react.
+- javascript frameworks have revolutionised the way we develop web applications, offering powerful tools and fea</p>
+<p><strong>Confidence</strong>: 95%</p>
+<h3>Finding 4</h3>
+<p><strong>Claim</strong>: Key insights about frameworks</p>
+<p><strong>Evidence</strong>:
+- web application development – top 10 frameworks in 2025 june 13, 2024 186603 views table of contents show if you are a developer, you must know the
+- home / blog / 27 best javascript frameworks for 2025 javascriptweb development 27 best javascript frameworks for 2025 mehul gadhiya posted on:
+- top 10 most popular javascript frameworks to choose in 2024evincedev5 min read·nov 22, 2023--listensharepress enter or click to view image in
+- nce then, every website i made is just built out of plain javascript, html, css and php without any frameworks.
+- g all other programming languages. but the power of js extends beyond its core; it’s the javascript frameworks that elevate its prowess.
+- javascript frameworks have revolutionised the way we develop web applications, offering powerful tools and features that</p>
+<p><strong>Confidence</strong>: 95%</p>
+<h3>Finding 5</h3>
+<p><strong>Claim</strong>: Key insights about for</p>
+<p><strong>Evidence</strong>:
+- plications without even writing our code from scratch. however, there are so many options available for choosing the right framework.
+- home / blog / 27 best javascript frameworks for 2025 javascriptweb development 27 best javascript frameworks for 2025 mehul gadhiya posted on: janu
+- tensharepress enter or click to view image in full sizemost popular javascript frameworks to choose for your projectin the rapidly evolving landscape of web development, javascript frameworks play a sign
+- r/webdev r/webdev a community dedicated to all things web development: both front-end and back-end. for more design-related questions, try /r/web_design.
+- e developer landscape in the previous year, with approximately 63% of developers dedicating their efforts to it, surpassing all other programming languages.
+- tavroy why inertiajs is a great stack to build modern web apps article laravel is my goto framework for backend development. and i really enjoy javascript for frontend stuff using vue or even react. howe
+- ance user experience. as we move into 2024, staying current with the latest frameworks is essential for any developer looking to advance their career.
+- lita / solita.github.
+- thluiz / cabinet-content public notifications you must be signed in to change notification settings fork 0 star 0
+- ypchenko / web-hero-blog public notifications you must be signed in to change notification settings fork 0 star 0
+- fleek-platform / website public notifications you must be signed in to change notification settings fork 46 star</p>
+<p><strong>Confidence</strong>: 95%</p>
+<h3>Finding 6</h3>
+<p><strong>Claim</strong>: Key insights about building</p>
+<p><strong>Evidence</strong>:
+- components. these components include: grids pivot grids exporters layouts charts d3 adapters. start building javascript apps faster and boost your bottom-line revenue.
+- s through this react testing tutorial. 2. angular angular is an open-source framework by google for building dynamic single-page web applications.
+- works have changed the way developers build web applications. they offer a systematized approach to building complex user interfaces and dynamic interactions.
+- s, pros and cons, and real-world use cases. 1. react react is an open-source javascript library for building user interfaces.
+- evelopment. and i really enjoy javascript for frontend stuff using vue or even react. however while building spas i would spend a lot of time handling things which were already so well managed in laravel. tha
+- ct overview: react, developed by facebook, remains one of the most popular javascript libraries for building user interfaces, especially single-page applications.</p>
+<p><strong>Confidence</strong>: 95%</p>
+<h3>Finding 7</h3>
+<p><strong>Claim</strong>: Key insights about modern</p>
+<p><strong>Evidence</strong>:
+- javascript apps faster and boost your bottom-line revenue.get started enhancements in ext js 7 for modern web development it is important to note that ext js 7.7 has arrived.
+- o-market.
+- volving landscape of web development, javascript frameworks play a significant role in transforming modern websites and applications’ user experience and functionality.
+- that means you don’t need to manually track changes or update the dom. component-based: like other modern javascript frameworks, svelte encourages a component-based architecture.
+- thout sweating the small things. members online • amitavroy why inertiajs is a great stack to build modern web apps article laravel is my goto framework for backend development.
+- ons and the plugin system. 7. gatsby overview: gatsby is a react-based framework for building fast, modern websites with a focus on performance and seo.</p>
+<p><strong>Confidence</strong>: 95%</p>
+<h3>Finding 8</h3>
+<p><strong>Claim</strong>: Key insights about web</p>
+<p><strong>Evidence</strong>:
+- web application development – top 10 frameworks in 2025 june 13, 2024 186603 views table of contents sh
+- home / blog / 27 best javascript frameworks for 2025 javascriptweb development 27 best javascript frameworks for 2025 mehul gadhiya posted on: january 3, 2025 59 min
+- zemost popular javascript frameworks to choose for your projectin the rapidly evolving landscape of web development, javascript frameworks play a significant role in transforming modern websites and appl
+- go to webdev r/webdev r/webdev a community dedicated to all things web development: both front-end and back-e
+- s ability to run on the server, rendering and returning the virtual dom to the browser as a regular webpage, makes it seo-friendly.
+- go to laravel r/laravel r/laravel laravel is a free and open-source php web framework created by taylor otwell.
+- javascript frameworks have revolutionised the way we develop web applications, offering powerful tools and features that streamline development and enhance user exp
+- rsypchenko / web-hero-blog public notifications you must be signed in to change notification settings fork 0 star 0
+- fleek-platform / website public notifications you must be signed in to change notification settings fork 46 star 21</p>
+<p><strong>Confidence</strong>: 95%</p>
+<h3>Finding 9</h3>
+<p><strong>Claim</strong>: Key insights about applications</p>
+<p><strong>Evidence</strong>:
+- e of contents show if you are a developer, you must know the role of frameworks in creating amazing applications.
+- best javascript frameworks, you’ll encounter a plethora of options, each with unique advantages and applications.
+- web development, javascript frameworks play a significant role in transforming modern websites and applications’ user experience and functionality.
+- e full power of javascript. jsx produces react “elements.” components: the building blocks of react applications, reusable pieces of ui that encapsulate data and logic.
+- ps://www.amitavroy.com/articles/2024-11-24-why-love-using-inertiajs-laravel-for-building-modern-web-applications read more archived post. new comments cannot be posted and votes cannot be cast. share
+- javascript frameworks have revolutionised the way we develop web applications, offering powerful tools and features that streamline development and enhance user experience. as w</p>
+<p><strong>Confidence</strong>: 95%</p>
+<h3>Finding 10</h3>
+<p><strong>Claim</strong>: Key insights about 2024</p>
+<p><strong>Evidence</strong>:
+- web application development – top 10 frameworks in 2025 june 13, 2024 186603 views table of contents show if you are a developer, you must know the role of frameworks in
+- ging technologies alongside established frameworks. based on the latest trends from the state of js 2024 survey, here are the top javascript frameworks for front-end development in 2025. 1. react react, a
+- top 10 most popular javascript frameworks to choose in 2024evincedev5 min read·nov 22, 2023--listensharepress enter or click to view image in full sizemost pop
+- estions, try /r/web_design.
+- ameworks that elevate its prowess. in this article, we’ll delve into top 9 javascript frameworks in 2024, examining their significance, key features, pros and cons, and real-world use cases. 1. react reac
+- cover those topics and would like to know what are your thoughts https://www.amitavroy.
+- owerful tools and features that streamline development and enhance user experience.</p>
+<p><strong>Confidence</strong>: 95%</p>
+<h2>Citations</h2>
+<ol>
+<li>Top 10 Web Application Development Frameworks in 2025. https://www.sencha.com/blog/web-application-development-top-frameworks/. Accessed: 9/3/2025</li>
+<li>27 Best JavaScript Frameworks For 2025 | LambdaTest. https://www.lambdatest.com/blog/best-javascript-frameworks/. Accessed: 9/3/2025</li>
+<li>Top 10 Most Popular JavaScript Frameworks to Choose in 2024. https://medium.com/@evincedevelop/top-10-most-popular-javascript-frameworks-to-choose-in-2024-269453cdaf35. Accessed: 9/3/2025</li>
+<li>10 Best JavaScript Frameworks to choose in 2025 | Radixweb. https://radixweb.com/blog/best-javascript-frameworks-for-web-development. Accessed: 9/3/2025</li>
+<li>Reddit - The heart of the internet. https://www.reddit.com/r/webdev/comments/1ck6ifh/is_making_websites_without_a_framework_in_2024_a/. Accessed: 9/3/2025</li>
+<li>Top 9 JavaScript frameworks in 2024 Handsontable Blog - JavaScript Data Grid Component with Spreadsheet Look &amp; Feel. Available for React, Vue and Angular. Tools. https://handsontable.com/blog/top-9-javascript-frameworks-in-2024. Accessed: 9/3/2025</li>
+<li>Reddit - The heart of the internet. https://www.reddit.com/r/laravel/comments/1gyjbsb/why_inertiajs_is_a_great_stack_to_build_modern/. Accessed: 9/3/2025</li>
+<li>Top 10 JavaScript Frameworks to Learn in 2024. https://dev.to/delia_code/top-10-javascript-frameworks-to-learn-in-2024-41mn. Accessed: 9/3/2025</li>
+<li>solita.github.com/_posts/2024-12-02-building-static-websites-with-astro.md at 8e968035e471bff69b8a54829296811689c33edd · solita/solita.github.com. https://github.com/solita/solita.github.com/blob/8e968035e471bff69b8a54829296811689c33edd/_posts/2024-12-02-building-static-websites-with-astro.md. Accessed: 9/3/2025</li>
+<li>cabinet-content/Inbox/2024/06/14 Top Software Developer Skills for 2024 The Complete Guide.md at c440f553f24fad7e5b5b64827a97f18f968b398e · thluiz/cabinet-content. https://github.com/thluiz/cabinet-content/blob/c440f553f24fad7e5b5b64827a97f18f968b398e/Inbox/2024/06/14%20Top%20Software%20Developer%20Skills%20for%202024%20The%20Complete%20Guide.md. Accessed: 9/3/2025</li>
+<li>web-hero-blog/content/blog/how-to-master-javascript-in-2024.md at 457da4d13f1ccf73745633b5c2da884c9baf82d1 · rsypchenko/web-hero-blog. https://github.com/rsypchenko/web-hero-blog/blob/457da4d13f1ccf73745633b5c2da884c9baf82d1/content/blog/how-to-master-javascript-in-2024.md. Accessed: 9/3/2025</li>
+<li>website/src/content/blog/learn/best-serverless-computing-platforms-2024/index.md at fea38c02890e8d7453746df904586ffe2634a304 · fleek-platform/website. https://github.com/fleek-platform/website/blob/fea38c02890e8d7453746df904586ffe2634a304/src/content/blog/learn/best-serverless-computing-platforms-2024/index.md. Accessed: 9/3/2025</li>
+</ol>
+<h2>Metadata</h2>
+<ul>
+<li>Sources Analyzed: 12</li>
+<li>Processing Time: 6.35s</li>
+<li>Overall Reliability: 65%</li>
+</ul>
+<p><strong>Note</strong>: The claim 'Laravel is a JavaScript framework....' may need verification.</p>
+<h2>Sources</h2>
+<p>[1] https://rengga.dev/blog/top-15-best-javascript-frameworks-2023/
+[2] https://technostacks.com/blog/best-javascript-frameworks/
+[3] https://www.freecodecamp.org/news/javascript-frameworks-vs-laravel/
+[4] https://www.tatvasoft.com/blog/angular-vs-react-vs-vue/
+[5] https://hybridwebagency.com/blog/why-combine-laravel-with-inertia-js-for-your-next-project/</p>
+        </div>
+
+    </div>
+    <script>
+        function toggleSection(id) {
+            const content = document.getElementById(id);
+            content.classList.toggle('active');
+            const toggle = content.previousElementSibling;
+            toggle.textContent = content.classList.contains('active') ? 
+                '▼ Hide Auto-Fixed Version' : '▶ Show Auto-Fixed Version';
+        }
+    </script>
+</body>
+</html>

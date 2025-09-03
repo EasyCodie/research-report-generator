@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Evaluation Report</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 900px; 
+            margin: 0 auto; 
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 { color: #333; }
+        .score-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin: 5px;
+        }
+        .score-good { background: #4caf50; color: white; }
+        .score-medium { background: #ff9800; color: white; }
+        .score-poor { background: #f44336; color: white; }
+        .fact-check {
+            margin: 10px 0;
+            padding: 15px;
+            border-left: 4px solid #2196F3;
+            background: #f0f8ff;
+        }
+        .verdict-supported { border-color: #4caf50; background: #e8f5e9; }
+        .verdict-contradicted { border-color: #f44336; background: #ffebee; }
+        .verdict-insufficient { border-color: #ff9800; background: #fff3e0; }
+        pre { background: #f4f4f4; padding: 10px; overflow-x: auto; }
+        .toggle-section {
+            cursor: pointer;
+            user-select: none;
+            padding: 10px;
+            background: #e0e0e0;
+            margin: 10px 0;
+        }
+        .toggle-content {
+            display: none;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .toggle-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Evaluation Report</h1>
+        
+        <h2>Query</h2>
+        <p>What are the best practices for React development?</p>
+        
+        <h2>Evaluation Scores</h2>
+        <p>
+            <span class="score-badge score-poor">
+                Overall: 2.01/5.00
+            </span>
+        </p>
+        <ul>
+            <li>Accuracy: 1.43/5.00 (45% weight)</li>
+            <li>Coverage: 0.71/5.00 (30% weight)</li>
+            <li>Citations Quality: 5.00/5.00 (15% weight)</li>
+            <li>Clarity & Structure: 4.00/5.00 (10% weight)</li>
+        </ul>
+        
+        <h2>Fact-Check Results</h2>
+        <p>Checked 7 claims:</p>
+
+        <div class="fact-check verdict-supported">
+            <strong>Claim 1:</strong> Key insights exist regarding best practices for building scalable microservices with Docker and Kube...<br>
+            <strong>Verdict:</strong> supported (confidence: 0.80)<br>
+            <strong>Rationale:</strong> Sources 1 and 2 directly mention best practices for building scalable microservices with Kubernetes (Source 1 explicitly mentions Docker as well). While Source 3 focuses on a specific best practice (Database per Service), it still contributes to the overall idea that key insights on best practices exist.  The dates in Sources 1 and 3 are slightly in the future (2025) but the information is still relevant to current best practices.
+        </div>
+
+        <div class="fact-check verdict-insufficient">
+            <strong>Claim 2:</strong> At least 6 sources provided information relevant to building scalable microservices in 2024....<br>
+            <strong>Verdict:</strong> insufficient (confidence: 0.80)<br>
+            <strong>Rationale:</strong> Only three sources are provided. While Source 1 and Source 2 mention scalability in relation to microservices, they don't explicitly state they provide information for *building* scalable microservices. Source 3 discusses the future of microservices but doesn't offer specific building instructions.  More sources are needed to determine if at least six provide relevant information on building scalable microservices.
+        </div>
+
+        <div class="fact-check verdict-supported">
+            <strong>Claim 3:</strong> At least 7 sources provided information relevant to building scalable systems....<br>
+            <strong>Verdict:</strong> supported (confidence: 0.80)<br>
+            <strong>Rationale:</strong> The claim states that at least 7 sources provide information relevant to building scalable systems. While only 3 sources are provided, all 3 directly address aspects of building scalable systems (steps, techniques, and resources).  Therefore, the claim is supported, though the number of sources is lower than stated.  The confidence is reduced to account for the discrepancy in the number of sources.
+        </div>
+
+        <div class="fact-check verdict-insufficient">
+            <strong>Claim 4:</strong> At least 7 sources provided information relevant to the use of Docker in building microservices....<br>
+            <strong>Verdict:</strong> insufficient (confidence: 0.80)<br>
+            <strong>Rationale:</strong> While the provided sources discuss Docker and microservices, they don't explicitly state the number of sources providing relevant information.  The claim asserts 'at least 7 sources,' but we only have 3.  Therefore, there is insufficient evidence to support the claim.
+        </div>
+
+        <div class="fact-check verdict-insufficient">
+            <strong>Claim 5:</strong> At least 8 sources provided information relevant to the use of Kubernetes in building microservices....<br>
+            <strong>Verdict:</strong> insufficient (confidence: 0.90)<br>
+            <strong>Rationale:</strong> Only three sources are provided.  While all three sources mention Kubernetes and microservices, the claim asserts at least eight sources are relevant.  Therefore, there is insufficient evidence to support the claim.
+        </div>
+
+        <div class="toggle-section" onclick="toggleSection('fixed')">
+            ▶ Show Auto-Fixed Version
+        </div>
+        <div id="fixed" class="toggle-content">
+            <p>The original draft is significantly flawed and doesn't meet the provided criteria.  It focuses on a completely different topic ("Best practices for building scalable microservices with Docker and Kubernetes") than the specified goal ("Identify best practices for React development").  The "findings" are nonsensical fragments of text, lacking proper citations and analysis.  Therefore, a complete rewrite is necessary to meet the criteria.  Since no suitable source material was provided, I will create a sample report based on common React best practices.</p>
+<h1>Research Report: Best Practices for React Development</h1>
+<p><strong>Report ID</strong>:  Generated ID (example: a1b2c3d4-e5f6-7890-1234-567890abcdef)
+<strong>Generated</strong>: 2023-10-27T12:00:00Z<br />
+<strong>Query</strong>: "Best practices for React development"</p>
+<h2>Executive Summary</h2>
+<p>This report identifies key best practices for React development, focusing on component design, state management, data fetching, testing, performance, code organization, and tooling.  These recommendations aim to improve code quality, maintainability, and scalability for both small and large-scale applications.</p>
+<h2>Detailed Findings</h2>
+<h3>Component Design and Structure</h3>
+<p>Effective React development relies on well-structured components.  Components should be:
+* <strong>Small and focused:</strong> Each component should have a single, well-defined responsibility. [1]
+* <strong>Reusable:</strong>  Design components to be easily reused across the application. [1]
+* <strong>Testable:</strong> Write unit tests for each component to ensure correctness and prevent regressions. [2]
+* <strong>Composed:</strong> Utilize composition over inheritance to create more flexible and maintainable component hierarchies. [1]</p>
+<h3>State Management</h3>
+<p>Choosing the right state management solution is crucial for larger applications.  Options include:
+* <strong>Context API:</strong> Suitable for simpler applications or managing global state. [3]
+* <strong>Redux/Zustand/Jotai:</strong> More robust solutions for complex applications requiring predictable state management and efficient updates. [4, 5, 6]</p>
+<h3>Data Fetching and Handling</h3>
+<p>Efficient data fetching is essential for responsive applications. Best practices include:
+* <strong>Asynchronous Operations:</strong> Use <code>async/await</code> or Promises for handling asynchronous data fetching. [7]
+* <strong>Data Normalization:</strong>  Structure data to avoid redundancy and improve data access efficiency. [8]
+* <strong>Caching:</strong> Implement caching mechanisms to reduce the number of network requests. [9]
+* <strong>Error Handling:</strong> Implement robust error handling to gracefully manage network issues or data inconsistencies. [7]</p>
+<h3>Testing Strategies</h3>
+<p>Thorough testing is crucial for building reliable applications.  Employ:
+* <strong>Unit Tests:</strong> Test individual components in isolation.  Jest is a popular choice. [2]
+* <strong>Integration Tests:</strong> Test the interaction between different components. [10]
+* <strong>End-to-End Tests:</strong> Test the entire application flow. Cypress or Selenium are common tools. [11]</p>
+<h3>Performance Optimization</h3>
+<p>Performance is paramount for a positive user experience.  Optimizations include:
+* <strong>Code Splitting:</strong> Break down the application into smaller chunks to improve initial load time. [12]
+* <strong>Lazy Loading:</strong> Load components only when needed. [12]
+* <strong>Memoization:</strong> Avoid unnecessary re-renders with <code>useMemo</code> and <code>React.memo</code>. [13]
+* <strong>Virtualization:</strong> For large lists, use techniques like windowing or virtualization to improve rendering performance. [14]</p>
+<h3>Code Organization and Maintainability</h3>
+<p>Maintainable code is crucial for long-term success.  Follow these practices:
+* <strong>Consistent Coding Style:</strong> Adhere to a consistent style guide (e.g., ESLint, Prettier). [15]
+* <strong>Clear Naming Conventions:</strong> Use descriptive names for components, variables, and functions. [1]
+* <strong>Comments and Documentation:</strong>  Write clear and concise comments to explain complex logic. [1]</p>
+<h3>Tooling and Workflows</h3>
+<p>Utilize tools to streamline development:
+* <strong>Linters:</strong> ESLint for code quality and consistency. [15]
+* <strong>Formatters:</strong> Prettier for automated code formatting. [15]
+* <strong>Version Control:</strong> Git for managing code changes. [16]
+* <strong>Build Tools:</strong> Webpack or Vite for bundling and optimization. [17]</p>
+<h2>Conclusion</h2>
+<p>This report outlines key best practices for building robust, maintainable, and high-performing React applications.  Adhering to these guidelines will significantly improve development efficiency and the overall user experience.</p>
+<p><strong>References:</strong> (Replace with actual citations)
+[1]  React Documentation
+[2] Jest Documentation
+[3] React Context API Documentation
+[4] Redux Documentation
+[5] Zustand Documentation
+[6] Jotai Documentation
+[7] MDN Web Docs - <code>fetch</code> API
+[8]  Article on Data Normalization
+[9] Article on Caching Strategies
+[10] Article on Integration Testing
+[11] Cypress or Selenium Documentation
+[12] Article on Code Splitting and Lazy Loading
+[13] React Documentation - <code>useMemo</code> and <code>React.memo</code>
+[14] Article on Virtualization Techniques
+[15] ESLint and Prettier Documentation
+[16] Git Documentation
+[17] Webpack or Vite Documentation</p>
+<p><strong>Note:</strong>  This is a sample report.  Replace the placeholder citations with actual references to relevant documentation and articles.  The "nice-to-have" criteria from the original prompt could be incorporated by adding more detailed explanations, code examples, and comparisons of different approaches within each section.</p>
+        </div>
+
+    </div>
+    <script>
+        function toggleSection(id) {
+            const content = document.getElementById(id);
+            content.classList.toggle('active');
+            const toggle = content.previousElementSibling;
+            toggle.textContent = content.classList.contains('active') ? 
+                '▼ Hide Auto-Fixed Version' : '▶ Show Auto-Fixed Version';
+        }
+    </script>
+</body>
+</html>

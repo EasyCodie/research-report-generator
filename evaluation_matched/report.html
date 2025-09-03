@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Evaluation Report</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 900px; 
+            margin: 0 auto; 
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 { color: #333; }
+        .score-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin: 5px;
+        }
+        .score-good { background: #4caf50; color: white; }
+        .score-medium { background: #ff9800; color: white; }
+        .score-poor { background: #f44336; color: white; }
+        .fact-check {
+            margin: 10px 0;
+            padding: 15px;
+            border-left: 4px solid #2196F3;
+            background: #f0f8ff;
+        }
+        .verdict-supported { border-color: #4caf50; background: #e8f5e9; }
+        .verdict-contradicted { border-color: #f44336; background: #ffebee; }
+        .verdict-insufficient { border-color: #ff9800; background: #fff3e0; }
+        pre { background: #f4f4f4; padding: 10px; overflow-x: auto; }
+        .toggle-section {
+            cursor: pointer;
+            user-select: none;
+            padding: 10px;
+            background: #e0e0e0;
+            margin: 10px 0;
+        }
+        .toggle-content {
+            display: none;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .toggle-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Evaluation Report</h1>
+        
+        <h2>Query</h2>
+        <p>Best practices for building scalable microservices with Docker and Kubernetes in 2024</p>
+        
+        <h2>Evaluation Scores</h2>
+        <p>
+            <span class="score-badge score-poor">
+                Overall: 2.65/5.00
+            </span>
+        </p>
+        <ul>
+            <li>Accuracy: 3.33/5.00 (45% weight)</li>
+            <li>Coverage: 0.00/5.00 (30% weight)</li>
+            <li>Citations Quality: 5.00/5.00 (15% weight)</li>
+            <li>Clarity & Structure: 4.00/5.00 (10% weight)</li>
+        </ul>
+        
+        <h2>Fact-Check Results</h2>
+        <p>Checked 6 claims:</p>
+
+        <div class="fact-check verdict-supported">
+            <strong>Claim 1:</strong> Best practices exist for building scalable microservices with Docker and Kubernetes in 2024....<br>
+            <strong>Verdict:</strong> supported (confidence: 0.80)<br>
+            <strong>Rationale:</strong> Sources 1 and 3 explicitly discuss best practices for building scalable microservices.  Source 1 provides concrete examples (message queues, retry policies), while Source 3 mentions tools for monitoring and insights, both crucial for scalability. Source 2, while not explicitly detailing best practices, highlights Docker and Kubernetes' roles in scalability, indirectly supporting the claim that such best practices exist and leverage these technologies.
+        </div>
+
+        <div class="fact-check verdict-supported">
+            <strong>Claim 2:</strong> Service discovery tools can assist in building microservices....<br>
+            <strong>Verdict:</strong> supported (confidence: 0.80)<br>
+            <strong>Rationale:</strong> Sources 1 and 2 explicitly mention service discovery in the context of microservices architecture, with Source 1 stating that using service discovery tools unlocks the full potential of microservices.  Source 3, while less explicit, discusses service discovery within the microservices context, indirectly supporting the claim.  The snippets provide enough evidence to support the claim.
+        </div>
+
+        <div class="fact-check verdict-insufficient">
+            <strong>Claim 3:</strong> Microservices architecture is a crucial best practice for building scalable systems....<br>
+            <strong>Verdict:</strong> insufficient (confidence: 0.30)<br>
+            <strong>Rationale:</strong> The sources mention microservices and scalability, but they don't definitively state that microservices are a *crucial* best practice for building scalable systems.  They discuss best practices *for* microservices and scalability *in* microservices, but not the necessity of microservices for scalability in all cases.  More evidence is needed to support the claim's strength of 'crucial'.
+        </div>
+
+        <div class="fact-check verdict-insufficient">
+            <strong>Claim 4:</strong> Using containers (like Docker) for scalable, stateless services is a best practice when host OS unif...<br>
+            <strong>Verdict:</strong> insufficient (confidence: 0.30)<br>
+            <strong>Rationale:</strong> Source 1 mentions alternatives to Docker, suggesting that Docker isn't always the best practice, but doesn't directly address scalability or stateless services. Source 2 focuses on stateful applications, which are explicitly excluded from the claim. Source 3 is irrelevant.  While none directly contradict the claim, none strongly support it either.  The claim mentions a key condition ('host OS uniformity is acceptable'), which isn't discussed in the provided sources.
+        </div>
+
+        <div class="fact-check verdict-supported">
+            <strong>Claim 5:</strong> Monitoring traffic patterns and resource usage is a best practice for microservices....<br>
+            <strong>Verdict:</strong> supported (confidence: 0.90)<br>
+            <strong>Rationale:</strong> All three sources directly mention microservices monitoring and emphasize its importance, implicitly or explicitly framing it as a best practice.  Source 1 explicitly uses the term 'best practices' in relation to microservices monitoring. While they don't explicitly state 'monitoring traffic patterns and resource usage is a best practice', the focus on health, performance, and dependencies strongly implies that these aspects (which are directly related to traffic and resource usage) are crucial aspects of effective monitoring, making it a best practice.
+        </div>
+
+        <div class="toggle-section" onclick="toggleSection('fixed')">
+            ▶ Show Auto-Fixed Version
+        </div>
+        <div id="fixed" class="toggle-content">
+            <h1>Research Report</h1>
+<p><strong>Report ID</strong>: 6b5e31af-21b7-4303-a109-3c921d60fe67
+<strong>Generated</strong>: 2025-09-03T15:29:39.806Z
+<strong>Query</strong>: "Best practices for building scalable microservices with Docker and Kubernetes in 2024"</p>
+<h2>Executive Summary</h2>
+<p>This report summarizes best practices for building scalable microservices using Docker and Kubernetes in 2024.  Key areas covered include microservice architecture principles, Docker image optimization, Kubernetes deployment strategies, scalability techniques, monitoring, logging, security, and resilience.  While specific tool recommendations are not exhaustively covered,  the report highlights crucial considerations for successful implementation.</p>
+<h2>Detailed Findings</h2>
+<h3>Microservice Architecture Principles</h3>
+<p>Designing for scalability necessitates adherence to core microservice principles.  Independent deployability,  loose coupling, and bounded contexts are crucial for managing complexity and facilitating independent scaling of individual services. [1]  Each microservice should have a clearly defined responsibility and communicate with others via lightweight mechanisms like REST APIs or message queues. [2]</p>
+<h3>Docker Image Building and Optimization</h3>
+<p>Creating efficient Docker images is paramount for reducing deployment times and resource consumption.  Employing multi-stage builds minimizes image size by separating build dependencies from the runtime environment. [3]  Leveraging Docker layers effectively can further improve efficiency.  Regularly scanning images for vulnerabilities is crucial for enhancing security. [4]</p>
+<h3>Kubernetes Deployment Strategies</h3>
+<p>Kubernetes provides robust mechanisms for deploying and managing microservices. Employing deployments, statefulsets (for stateful services), and daemonsets (for node-level services) allows for flexible deployment based on application requirements. [5] Utilizing rolling updates and rollbacks minimizes downtime during deployments.  Horizontal pod autoscaling (HPA) dynamically scales the number of pods based on resource utilization, ensuring efficient resource allocation. [6]</p>
+<h3>Scalability Techniques</h3>
+<p>Horizontal scaling, achieved through adding more pods to a Kubernetes deployment, is a fundamental scalability technique for microservices. [7] Auto-scaling, enabled by HPA, automatically adjusts the number of pods based on observed metrics, enhancing responsiveness to fluctuating demand.  Careful consideration of resource limits and requests within Kubernetes ensures efficient resource allocation and prevents resource starvation. [8]</p>
+<h3>Monitoring and Logging</h3>
+<p>Comprehensive monitoring and logging are essential for identifying and resolving issues in a microservices environment. Centralized logging allows for aggregation and analysis of logs from various services, providing insights into application behavior. [9]  Metrics such as CPU utilization, memory consumption, and request latency should be continuously monitored to proactively identify potential bottlenecks. [10]</p>
+<h3>Security Considerations</h3>
+<p>Security is paramount in a distributed system.  Employing robust authentication and authorization mechanisms is crucial.  Regularly updating Docker images and Kubernetes components is essential to mitigate vulnerabilities.  Implementing network policies within Kubernetes enhances security by controlling inter-service communication. [11]</p>
+<h3>Resilience Strategies</h3>
+<p>Designing for failure is critical for building resilient microservices.  Employing techniques like circuit breakers, retries, and fallback mechanisms ensures graceful degradation under adverse conditions. [12]  Implementing health checks allows Kubernetes to automatically restart unhealthy pods, maintaining system availability.</p>
+<h2>Conclusion</h2>
+<p>Building scalable microservices with Docker and Kubernetes requires a holistic approach encompassing architecture, deployment, monitoring, and security. By adhering to best practices detailed in this report, organizations can build robust, scalable, and resilient applications.</p>
+<p><strong>References:</strong> (Placeholder -  Replace with actual citations)
+[1]  ...
+[2]  ...
+[3]  ...
+[4]  ...
+[5]  ...
+[6]  ...
+[7]  ...
+[8]  ...
+[9]  ...
+[10] ...
+[11] ...
+[12] ...</p>
+        </div>
+
+    </div>
+    <script>
+        function toggleSection(id) {
+            const content = document.getElementById(id);
+            content.classList.toggle('active');
+            const toggle = content.previousElementSibling;
+            toggle.textContent = content.classList.contains('active') ? 
+                '▼ Hide Auto-Fixed Version' : '▶ Show Auto-Fixed Version';
+        }
+    </script>
+</body>
+</html>
